@@ -1,144 +1,20 @@
 <div class="container">
-  <header>
-  <div class="toolbar">
-    <div class="logo"><a href="/"><%= image_tag "/images/Logo.png" %></a></div>
-      <input type="hidden" name="listing_type" value="<%=h locals[:listing_type] %>"/>
-      <input type="hidden" name="property_type" value="<%=h locals[:property_type] %>"/>
-      <input id="coordinate_input" type="hidden" name="coordinates" value=""/>
-      <input type="text" name="location" placeholder="<%=h locals[:location_nicename]%>" value="<%=h locals[:is_coord_search] ? "" : locals[:location_nicename]%>"/>
-      <a href="#" class="locate-me"><%= _("Locate me") %></a>
-      <input type="submit" href="#" class="button search" value="Search"/>
-
-    <div class="control">
-      <p>
-        <%= listing_type == "rent" ? _("price per week") : _("price") %>: <span id="price-amount"><%= locals[:min_price] %> - <%= locals[:max_price]%></span>
-      </p>
-      <select id="min_price_select" name="min_price">
-        <% locals[:filters][:price].each do |o| %>
-          <option value="<%=o[0]%>" <%= selected="selected" if locals[:min_price] == o[0] %>><%=h o[1] %></option>
-        <% end %>
-      </select>
-      <select id="max_price_select" name="max_price">
-        <% locals[:filters][:price].each do |o| %>
-          <option value="<%=o[0]%>"
-                  <%= selected="selected" if locals[:max_price] == o[0] or
-                                             (locals[:max_price].nil? and o == locals[:filters][:price].last) %>>
-          <%=h o[1] %></option>
-        <% end %>
-      </select>
-
-      <div id="price-slider" class="slider"></div>
+  <div id="results">
+    <div id="result-info">
+      <h1><%= formatted_number(locals[:num_results]) %> <%=h locals[:verbose_title]%></h1>
     </div>
 
-    <div class="control" id="last-control">
-      <p>
-      <%= _("bedrooms") %>: <span id="bed-amount"><%= locals[:min_beds] %> - <%= locals[:max_beds]%></span>
-      </p>
-
-      <select id="min_beds_select" name="min_beds">
-        <% locals[:filters][:bedrooms].each do |o| %>
-          <option value="<%=o[0]%>" <%= selected="selected" if locals[:min_beds] == o[0] %>><%=h o[1] %></option>
-        <% end %>
-      </select>
-      <select id="max_beds_select" name="max_beds">
-        <% locals[:filters][:bedrooms].each do |o| %>
-          <option value="<%=o[0]%>"
-                  <%= selected="selected" if locals[:max_beds] == o[0] or
-                                             (locals[:max_beds].nil? and o == locals[:filters][:bedrooms].last) %>>
-          <%=h o[1] %></option>
-        <% end %>
-      </select>
-
-
-      <div id="bed-slider" class="slider"></div>
-    </div>
-
-    <a href="#" class="advanced-search">&darr;</a>
-  </div>
-  </header>
-
-  <section id="advanced" style="display:none;">
-  <div class="control">
-    <p>
-    <span id="bath-amount"><em>1 – 6 </em><%= _("bathrooms") %></span>
-    </p>
-    <div id="bath-slider" class="slider"></div>
-  </div>
-  <div class="control">
-    <p>
-    <%= _("Property Type") %>
-    </p>
-    <div id="property_type_select" class="btn-group">
-      <a id="other_type_property" class="btn <%= "active" if locals[:property_type] == "property" %>"
-        href="<%= locals[:other_urls][:property] %>">
-        <%= _("Any") %>
-      </a>
-      <a id="other_type_house" class="btn <%= "active" if locals[:property_type] == "house" %>"
-        href="<%= locals[:other_urls][:house] %>">
-        <%= _("House") %>
-      </a>
-      <a id="other_type_flat" class="btn <%= "active" if locals[:property_type] == "flat" %>"
-        href="<%= locals[:other_urls][:flat] %>">
-        <%= _("Flat") %>
-      </a>
-    </div>
-  </div>
-  <div class="control">
-    <p>
-      <%= _("(normally there would be more here)") %>
-    </p>
-  </div>
-
-  <% if false %>
-  <div class="control">
-    <p>
-    <%= _("New builds") %>
-    </p>
-    <select>
-      <option value="1"><%= _("All types") %></option>
-      <option value="2"><%= _("Just new builds") %></option>
-      <option value="3"><%= _("No new builds") %></option>
-    </select>
-  </div>
-  <div class="control">
-    <p>
-    <%= _("Other variable") %>
-    </p>
-    <select>
-      <option value="1">Lorem ipsum</option>
-      <option value="2">Dolor ist</option>
-    </select>
-  </div>
-  <% end %>
-  </section>
-
-  <div id="results_outer">
-    <div id="results_inner">
-
-      <div id="results">
-        <%= partial(:results, locals: locals) %>
-      </div> <!-- #results -->
-
-      <footer>
-        <div class="logo"><%= image_tag "/images/blue_logo.png" %></div>
-        <ul id="footul">
-          <li id="footli1"><a href="/help/about" title="Learn more about Nestoria" class="r-serp-footer-about-1" rel="nofollow">About</a></li>
-          <li class="footli"><a href="/help/api" title="Build cool things with out database" class="r-serp-footer-api-2" rel="nofollow">API</a></li>
-          <li class="footli"><a href="http://blog.nestoria.co.uk" title="Updates from the Nestoria team" class="r-serp-footer-blog-3" rel="nofollow">Blog</a></li>
-          <li class="footli"><a href="/help/feedback" title="" class="r-serp-footer-feedback-4" rel="nofollow">Contact Us</a></li>
-          <li class="footli"><a href="/help/faq" title="Answers to all your questions" class="r-serp-footer-faq-general-5" rel="nofollow">FAQ</a></li>
-          <li class="footli"><a href="http://www.lokku.com/jobs/" title="Join the team" class="r-serp-footer-jobs-6" rel="nofollow">Jobs</a></li>
-          <li class="footli"><a href="http://news.nestoria.co.uk" title="The most important UK property news aggregated from twitter" class="r-serp-footer-news-8" rel="nofollow">News</a></li>
-          <li class="footli"><a href="/help/terms-and-conditions" title="The legal stuff. *sigh*" class="r-serp-footer-tandc-9" rel="nofollow">Privacy/T&amp;Cs</a></li>
-          <li class="footli"><a href="/sitemap" title="Jump straight to what you are looking for" class="r-serp-footer-sitemap-10">Sitemap</a></li>
-          <li class="footli"><a href="/help/tools" title="Make finding properties even easier" class="r-serp-footer-tools-11" rel="nofollow">Tools</a></li>
-        </ul>
-        <p>Nestoria only displays listings provided under agreement with <a href="/help/adding-your-listings-to-nestoria">our partners</a></p>
-        <p>Copyright © 2012 Lokku Ltd.</p>
-      </footer>
-    </div><!-- #results_inner -->
-  </div><!-- #results_outer -->
-
-  <div id="sidebar">
-    <%= partial "sidebar", locals: locals %>
-  </div>
+    <div id="listings">
+    <%
+      i = 0
+      letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    %>
+    <% if listings then listings.each do |listing| %>
+      <%= partial "listing", :locals => {
+        :listing => listing,
+        :letter => letters[i]} %>
+      <% i = [i+1, 25].min %>
+    <% end end%>
+    </div> <!-- #listings -->
+  </div> <!-- #results -->
+</div>

@@ -81,6 +81,13 @@ class Nestoria::App < Sinatra::Base
     also_reload './models/nestoria/api.rb'
   end
 
+
+  get '/edition' do
+    results = serp_request(params, Nestoria::URL.new(params))
+    p results
+    erb :serp, {locals: results}
+  end
+
   def serp_request(params, current_url)
     raise "Something bad happened that caused us to search without a location. Please try again with a location." if !params[:location]
 
