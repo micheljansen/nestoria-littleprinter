@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nestoria\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:56+0100\n"
+"PO-Revision-Date: 2012-08-28 12:59+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: nestoria_app.rb:65
+msgid "Hello"
+msgstr ""
+
+#: nestoria_app.rb:105
+msgid "Showing"
+msgstr ""
+
+#: nestoria_app.rb:106
+msgid "all"
+msgstr ""
+
+#: nestoria_app.rb:107
+msgid "1-10 of %s"
+msgstr ""
+
+#: nestoria_app.rb:108
+msgid "result"
+msgid_plural "results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nestoria_app.rb:112 views/serp.erb:43
+msgid "Flat"
+msgid_plural "Flats"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nestoria_app.rb:113 views/serp.erb:42
+msgid "House"
+msgid_plural "Houses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nestoria_app.rb:114 views/serp.erb:75
+msgid "property"
+msgid_plural "properties"
+msgstr[0] ""
+msgstr[1] ""
+
+#: nestoria_app.rb:118
+msgid "to rent"
+msgstr ""
+
+#: nestoria_app.rb:119
+msgid "for sale"
+msgstr ""
+
+#: nestoria_app.rb:122
+msgid "%{pt_part} %{lt_part} in %{location_nicename}"
+msgstr ""
+
+#: views/homepage.erb:17 views/serp.erb:9
+msgid "Locate me"
+msgstr ""
+
+#: views/homepage.erb:18
+msgid "Search"
+msgstr ""
+
+#: views/serp.erb:14
+msgid "million"
+msgstr ""
+
+#: views/serp.erb:21
+msgid "bedrooms"
+msgstr ""
+
+#: views/serp.erb:33
+msgid "bathrooms"
+msgstr ""
+
+#: views/serp.erb:39
+msgid "Building type"
+msgstr ""
+
+#: views/serp.erb:44
+msgid "Bungalow"
+msgstr ""
+
+#: views/serp.erb:49
+msgid "New builds"
+msgstr ""
+
+#: views/serp.erb:52
+msgid "All types"
+msgstr ""
+
+#: views/serp.erb:53
+msgid "Just new builds"
+msgstr ""
+
+#: views/serp.erb:54
+msgid "No new builds"
+msgstr ""
+
+#: views/serp.erb:59
+msgid "Other variable"
+msgstr ""
+
+#: views/serp.erb:71
+msgid "Did you mean"
+msgstr ""
+
+#: views/serp.erb:71 views/serp.erb:123
+msgid "or"
+msgstr ""
+
+#: views/serp.erb:75
+msgid "Looking for"
+msgstr ""
+
+#: views/serp.erb:76
+msgid "for sale in"
+msgstr ""
+
+#: views/serp.erb:76
+msgid "to rent in"
+msgstr ""
+
+#: views/serp.erb:83
+msgid "Sort by"
+msgstr ""
+
+#: views/serp.erb:85
+msgid "Nestoria Rank"
+msgstr ""
+
+#: views/serp.erb:86 views/serp.erb:87
+msgid "Price"
+msgstr ""
+
+#: views/serp.erb:86
+msgid "low to high"
+msgstr ""
+
+#: views/serp.erb:87
+msgid "high to low"
+msgstr ""
+
+#: views/serp.erb:88
+msgid "Bedrooms"
+msgstr ""
+
+#: views/serp.erb:90
+msgid "What's this?"
+msgstr ""
+
+#: views/serp.erb:107
+msgid "Previous"
+msgstr ""
+
+#: views/serp.erb:109
+msgid "Next"
+msgstr ""
+
+#: views/serp.erb:114
+msgid "You are here"
+msgstr ""
+
+#: views/serp.erb:115
+msgid "Property to rent in"
+msgstr ""
+
+#: views/serp.erb:118
+msgid "Property to rent near"
+msgstr ""
+
+#: views/serp.erb:122
+msgid "Change your search"
+msgstr ""
+
+#: views/serp.erb:123
+msgid "Houses to rent near"
+msgstr ""
+
+#: views/serp.erb:123
+msgid "Flats to rent near"
+msgstr ""

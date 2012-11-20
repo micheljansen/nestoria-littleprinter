@@ -1,0 +1,2762 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:56+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+
+#: nestoria_app.rb:65
+msgid "Hello"
+msgstr "Hola"
+
+#: nestoria_app.rb:105
+msgid "Showing"
+msgstr "Mostrando"
+
+#: nestoria_app.rb:106
+msgid "all"
+msgstr "todos"
+
+#: nestoria_app.rb:107
+msgid "1-10 of %s"
+msgstr "1-10 de %s"
+
+#: nestoria_app.rb:108
+msgid "result"
+msgid_plural "results"
+msgstr[0] "resultado"
+msgstr[1] "resultados"
+
+#: nestoria_app.rb:112 views/serp.erb:43
+msgid "Flat"
+msgid_plural "Flats"
+msgstr[0] "Piso"
+msgstr[1] "Pisos"
+
+#: nestoria_app.rb:113 views/serp.erb:42
+msgid "House"
+msgid_plural "Houses"
+msgstr[0] "Chalet"
+msgstr[1] "Chalets"
+
+#: nestoria_app.rb:114 views/serp.erb:75
+msgid "property"
+msgid_plural "properties"
+msgstr[0] "vivienda"
+msgstr[1] "viviendas"
+
+#: nestoria_app.rb:118
+msgid "to rent"
+msgstr "en alquiler"
+
+#: nestoria_app.rb:119
+msgid "for sale"
+msgstr "en venta"
+
+#: nestoria_app.rb:122
+msgid "%{pt_part} %{lt_part} in %{location_nicename}"
+msgstr "%{pt_part} %{lt_part} en %{location_nicename}"
+
+#: views/homepage.erb:17 views/serp.erb:9
+#, fuzzy
+msgid "Locate me"
+msgstr "Tu ubicación actual"
+
+#: views/homepage.erb:18
+msgid "Search"
+msgstr "Encuentra "
+
+#: views/serp.erb:14
+msgid "million"
+msgstr "millón"
+
+#: views/serp.erb:21
+msgid "bedrooms"
+msgstr "dormitorios"
+
+#: views/serp.erb:33
+msgid "bathrooms"
+msgstr "baños"
+
+#: views/serp.erb:39
+msgid "Building type"
+msgstr "Tipo de vivienda"
+
+#: views/serp.erb:44
+msgid "Bungalow"
+msgstr "Bungalows"
+
+#: views/serp.erb:49
+msgid "New builds"
+msgstr "Obra nueva"
+
+#: views/serp.erb:52
+msgid "All types"
+msgstr "Todos"
+
+#: views/serp.erb:53
+msgid "Just new builds"
+msgstr "Sólo obra nueva"
+
+#: views/serp.erb:54
+msgid "No new builds"
+msgstr "No obra nueva"
+
+#: views/serp.erb:59
+msgid "Other variable"
+msgstr "Otras características"
+
+#: views/serp.erb:71
+msgid "Did you mean"
+msgstr "¿Quisiste decir"
+
+#: views/serp.erb:71 views/serp.erb:123
+msgid "or"
+msgstr "o"
+
+#: views/serp.erb:75
+msgid "Looking for"
+msgstr "¿Buscas"
+
+#: views/serp.erb:76
+msgid "for sale in"
+msgstr "en venta en"
+
+#: views/serp.erb:76
+msgid "to rent in"
+msgstr "en alquiler en"
+
+#: views/serp.erb:83
+msgid "Sort by"
+msgstr "Orden"
+
+#: views/serp.erb:85
+msgid "Nestoria Rank"
+msgstr "Ranking Nestoria"
+
+#: views/serp.erb:86 views/serp.erb:87
+msgid "Price"
+msgstr "Precio"
+
+#: views/serp.erb:86
+msgid "low to high"
+msgstr "de menos a más"
+
+#: views/serp.erb:87
+msgid "high to low"
+msgstr "de más a menos"
+
+#: views/serp.erb:88
+msgid "Bedrooms"
+msgstr "Dormitorios"
+
+#: views/serp.erb:90
+msgid "What's this?"
+msgstr "¿Qué es esto?"
+
+#: views/serp.erb:107
+msgid "Previous"
+msgstr "Anteriores"
+
+#: views/serp.erb:109
+msgid "Next"
+msgstr "Siguientes"
+
+#: views/serp.erb:114
+msgid "You are here"
+msgstr "Estas aquí"
+
+#: views/serp.erb:115
+#, fuzzy
+msgid "Property to rent in"
+msgstr "Casa para alquilar en "
+
+#: views/serp.erb:118
+msgid "Property to rent near"
+msgstr "Casa para alquilar cerca de"
+
+#: views/serp.erb:122
+msgid "Change your search"
+msgstr "Modifica tu búsqueda"
+
+#: views/serp.erb:123
+msgid "Houses to rent near"
+msgstr "Adosados o chalets en alquiler cerca de"
+
+#: views/serp.erb:123
+msgid "Flats to rent near"
+msgstr "Pisos para alquilar cerca de"
+
+#~ msgid "rent"
+#~ msgstr "alquiler"
+
+#~ msgid "buy"
+#~ msgstr "comprar"
+
+#, fuzzy
+#~ msgid "o"
+#~ msgstr "de"
+
+#~ msgid "Property to rent"
+#~ msgstr "Propiedades para alquilar"
+
+#~ msgid "near"
+#~ msgstr "cerca de"
+
+#~ msgid "Houses"
+#~ msgstr "Adosados o chalets"
+
+#~ msgid "Unai"
+#~ msgstr "Clever chap"
+
+#~ msgid "View on %s"
+#~ msgstr "Ver en %s"
+
+#~ msgid "show sales price trend"
+#~ msgstr "mostrar precios en ventas"
+
+#~ msgid "show rental price trend"
+#~ msgstr "mostrar precios de alquileres"
+
+#~ msgid "Embed"
+#~ msgstr "insertar"
+
+#~ msgid "Clear Recent Searches"
+#~ msgstr "Borrar Historial"
+
+#~ msgid "What is Nestoria Rank?"
+#~ msgstr "¿Qué es el Ranking Nestoria?"
+
+#~ msgid "View online"
+#~ msgstr "Ver en línea"
+
+#~ msgid "we have found %1 new %2"
+#~ msgstr "hemos encontrado  %1 nuevas %2"
+
+#~ msgid "result for"
+#~ msgstr "resultado para"
+
+#~ msgid ""
+#~ "The properties shown above are the %1 new results since our last email"
+#~ msgstr ""
+#~ "Las propiedades que se muestran arriba son los %1 nuevos resultados desde "
+#~ "nuestro último correo electrónico"
+
+#~ msgid ""
+#~ "The properties shown above are the top %1 of %2 new results since our "
+#~ "last email"
+#~ msgstr ""
+#~ "Las propiedades que se muestran arriba son las primeras %1 de %2 nuevos "
+#~ "resultados desde nuestro último correo electrónico"
+
+#~ msgid ""
+#~ "You are receiving it because you signed up to receive %1 property results "
+#~ "from <a target=\"_blank\" href=\"%2\">Nestoria</a>."
+#~ msgstr ""
+#~ "Está recibiendo esto porque se registró para recibir %1 resultados de "
+#~ "propiedad de <a target=\"_blank\" href=\"%2\">Nestoria</a>."
+
+#~ msgid "These are the top %1 results"
+#~ msgstr "Estos son los primeros %1 resultados"
+
+#~ msgid "Offered by"
+#~ msgstr "Ofrecido por"
+
+#~ msgid "forgot password?"
+#~ msgstr "¿Olvidaste la contraseña?"
+
+#~ msgid "Password recovery"
+#~ msgstr "Recuperación de contraseña"
+
+#~ msgid ""
+#~ "You can't remember your password? We'll email you instructions for "
+#~ "setting a new password."
+#~ msgstr ""
+#~ "¿No recuerdas tu contraseña? Te enviaremos por email instrucciones para "
+#~ "establecer una nueva contraseña."
+
+#~ msgid "Send email"
+#~ msgstr "Enviar email"
+
+#~ msgid "unknown user"
+#~ msgstr "usuario desconocido"
+
+#~ msgid "We have sent instructions to [[EMAIL]]."
+#~ msgstr "Hemos enviado instrucciones a [[EMAIL]]."
+
+#~ msgid "Nestoria password reset"
+#~ msgstr "Restablecer contraseña de Nestoria"
+
+#~ msgid "You have requested to reset your Nestoria password."
+#~ msgstr "Has solicitado restablecer tu contraseña de Nestoria."
+
+#~ msgid "Please click the button below and choose a new password:"
+#~ msgstr ""
+#~ "Por favor, haz clic en el botón de abajo y elige una nueva contraseña."
+
+#~ msgid "set new password"
+#~ msgstr "establecer nueva contraseña"
+
+#~ msgid "alternatively, use this link"
+#~ msgstr "como alternativa, usa este enlace"
+
+#~ msgid "Cheers! The Nestoria team"
+#~ msgstr "¡Saludos! El equipo de Nestoria"
+
+#~ msgid "Set your new password"
+#~ msgstr "Establece tu nueva contraseña"
+
+#~ msgid "You have successfully set your new Nestoria password."
+#~ msgstr "Has establecido con éxito tu nueva contraseña de Nestoria."
+
+#~ msgid "Setting new Nestoria password failed."
+#~ msgstr "Hubo un fallo al establecer la nueva contraseña de Nestoria."
+
+#~ msgid "Incorrect, old or expired link?"
+#~ msgstr "¿Enlace incorrecto, antiguo o caducado?"
+
+#~ msgid "return to the result page"
+#~ msgstr "volver a la página de resultados"
+
+#~ msgid "return to homepage"
+#~ msgstr "volver a la página de inicio"
+
+#~ msgid "centered around"
+#~ msgstr "con centro en"
+
+#~ msgid "with around %1 beds"
+#~ msgstr "con alrededor de %1 dormitorios"
+
+#~ msgid "with around %1 bed"
+#~ msgstr "con alrededor de %1 dormitorio"
+
+#~ msgid "costing between %1 and %2"
+#~ msgstr "con un precio entre %1 y %2"
+
+#~ msgid "costing less than %1"
+#~ msgstr "precio inferior a %1"
+
+#~ msgid "costing around %1"
+#~ msgstr "precio en torno a %1"
+
+#~ msgid "costing more than %1"
+#~ msgstr "precio superior a %1"
+
+#~ msgid "ban"
+#~ msgstr "prohibir"
+
+#~ msgid "save"
+#~ msgstr "guardar"
+
+#~ msgid "ban this property from appearing in results"
+#~ msgstr "Elimina esta propiedad de los resultados de búsqueda"
+
+#~ msgid "save this property to your favourites"
+#~ msgstr "guardar esta propiedad en favoritos"
+
+#~ msgid "unsave"
+#~ msgstr "no guardar"
+
+#~ msgid "remove this property from your favourites"
+#~ msgstr "eliminar esta propiedad de tus favoritos"
+
+#~ msgid "subscribe"
+#~ msgstr "suscribirse"
+
+#~ msgid "subscribe to email alerts for properties like this"
+#~ msgstr ""
+#~ "Suscríbase a las alertas por correo electrónico para propiedades como "
+#~ "éstas"
+
+#~ msgid "Found on XXX, offered by YYY"
+#~ msgstr "Encontrado en XXX, ofrecido por YYY"
+
+#~ msgid "Found on XXX"
+#~ msgstr "Encontrado en XXX"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Desktop version"
+#~ msgstr "Versión escritorio"
+
+#~ msgid "Enter a location"
+#~ msgstr "Introducir una ubicación"
+
+#~ msgid "Filter"
+#~ msgstr "Filtro"
+
+#~ msgid "Filters"
+#~ msgstr "Filtros"
+
+#~ msgid "list"
+#~ msgstr "lista"
+
+#~ msgid "More..."
+#~ msgstr "Más..."
+
+#~ msgid "We are sorry, something went wrong!"
+#~ msgstr "Lo sentimos, algo falló."
+
+#~ msgid ""
+#~ "We are unable to find the page you requested. Sorry. Perhaps you mistyped "
+#~ "the address?"
+#~ msgstr ""
+#~ "No es posible encontrar la localidad requerida. Lo sentimos.\n"
+#~ "¿Quizás la ortografía no es la correcta?"
+
+#~ msgid "We'll send the updates to this email address"
+#~ msgstr "Enviaremos las actualizaciones a esta dirección de email"
+
+#~ msgid "today"
+#~ msgstr "hoy"
+
+#~ msgid "create <em>email alerts</em>"
+#~ msgstr "crear <em>alertas de email</em>"
+
+#~ msgid "auth_failure"
+#~ msgstr "Dirección de email o contraseña incorrectos"
+
+#~ msgid "Tell your friends you're searching for a new home"
+#~ msgstr "Dile a tus amigos que estás buscando casa"
+
+#~ msgid "register"
+#~ msgstr "accede a tu cuenta"
+
+#~ msgid "You can then also..."
+#~ msgstr "Entonces también podrás..."
+
+#~ msgid "<em>ban</em> properties from appearing in results"
+#~ msgstr ""
+#~ "<em>prohibir</em> que ciertas propiedades aparezcan en los resultados"
+
+#~ msgid "You're not logged in."
+#~ msgstr "No estás conectado."
+
+#~ msgid "email"
+#~ msgstr "email"
+
+#~ msgid "password"
+#~ msgstr "contraseña"
+
+#~ msgid "sign in"
+#~ msgstr "accede a tu cuenta"
+
+#~ msgid "sign in with"
+#~ msgstr "accede a tu cuenta"
+
+#~ msgid "create new account"
+#~ msgstr "crear cuenta nueva"
+
+#~ msgid "Why should you create an account and organise your search?"
+#~ msgstr "Para qué deberías crear una cuenta y organizar tu búsqueda?"
+
+#~ msgid "coming soon"
+#~ msgstr "próximamente"
+
+#~ msgid "Why should you sign in with Facebook and organise your search?"
+#~ msgstr ""
+#~ "Por qué deberías conectarte a tavés de Facebook y organizar tu búsqueda?"
+
+#~ msgid "<em>ban</em> results you don't like -- you'll never see them again"
+#~ msgstr ""
+#~ "<em>prohibir</em> resultados que no te gusten -- no volverás a verlos"
+
+#~ msgid "Learn more about team Nestoria"
+#~ msgstr "Aprende más sobre el equipo Nestoria"
+
+#~ msgid "<em>save</em> results for later"
+#~ msgstr "<em>salvar</em> resultados para más tarde"
+
+#~ msgid "<em>access</em> your save list on your mobile"
+#~ msgstr "<em>acceder</em> a tu lista desde el móvil"
+
+#~ msgid "create <em>email alerts</em> -- get the latest results every day"
+#~ msgstr ""
+#~ "crear <em>alertas de email</em> -- recibe los últimos resultados cada dia"
+
+#~ msgid "[[Register with Nestoria]] to ban this listing permanently"
+#~ msgstr ""
+#~ "[[Registrate con Nestoria]] para prohibir este anuncio permanentemente"
+
+#~ msgid "To save this result you need to [[register]]"
+#~ msgstr "Para salvar este resultado necesitas [[registrarte]]"
+
+#~ msgid "organise your search"
+#~ msgstr "Organiza tu búsqueda"
+
+#~ msgid "%1 saved"
+#~ msgstr "%1 guardado"
+
+#~ msgid "saved %1"
+#~ msgstr "guardado %1"
+
+#~ msgid "%1 banned"
+#~ msgstr "%1 prohibido"
+
+#~ msgid "logout"
+#~ msgstr "finalizar sesión"
+
+#~ msgid "manage your results"
+#~ msgstr "gestiona tus resultados"
+
+#~ msgid "no thanks"
+#~ msgstr "no gracias"
+
+#~ msgid "no, thanks"
+#~ msgstr "no, gracias"
+
+#~ msgid "add to ban list"
+#~ msgstr "Incluir en la lista de prohibidos"
+
+#~ msgid "email_empty"
+#~ msgstr "El campo email está vacio"
+
+#~ msgid "password_empty"
+#~ msgstr "El campo contraseña está vacio"
+
+#~ msgid "email_already_in_use"
+#~ msgstr "La dirección de correo electrónico está en uso"
+
+#~ msgid "not_an_email_address"
+#~ msgstr "No parece una dirección de correo electrónico"
+
+#~ msgid "email_too_long"
+#~ msgstr "La dirección de correo electrónico es demasiado larga"
+
+#~ msgid "other_error"
+#~ msgstr "Error"
+
+#~ msgid "add to savelist"
+#~ msgstr "me gusta"
+
+#~ msgid "remove from save list"
+#~ msgstr "eliminar de la lista"
+
+#~ msgid "undo"
+#~ msgstr "deshacer"
+
+#~ msgid "unsave result"
+#~ msgstr "eliminar"
+
+#~ msgid "connection_error"
+#~ msgstr "Error de conexión"
+
+#~ msgid "This result is now banned."
+#~ msgstr "Este resultado ha sido prohibido"
+
+#~ msgid "share result"
+#~ msgstr "compartir"
+
+#~ msgid "add to save list"
+#~ msgstr "añadir a la lista"
+
+#~ msgid "saved"
+#~ msgstr "guardado"
+
+#~ msgid "You banned %1 results"
+#~ msgstr "Has prohibido %1 resultados"
+
+#~ msgid "You saved %1 results"
+#~ msgstr "Has guardado %1 resultados"
+
+#~ msgid "clear list"
+#~ msgstr "limpiar la lista"
+
+#~ msgid "Thank you"
+#~ msgstr "Gracias"
+
+#~ msgid "I'm hunting for a new home"
+#~ msgstr "Ayúdame a buscar mi nueva casa"
+
+#~ msgid ""
+#~ "Click <a id=\"a2bra\">here</a> to add Nestoria to your browser search "
+#~ "engines"
+#~ msgstr ""
+#~ "Haz click <a id=\"a2bra\">aquí</a> para añadir Nestoria a la lista de "
+#~ "buscadores en tu navegador"
+
+#~ msgid " %quant(%1,bathroom,bathrooms)"
+#~ msgstr " %quant(%1,baño,baños)"
+
+#~ msgid " bedroom"
+#~ msgstr " dormitorio"
+
+#~ msgid " between %1 and %2"
+#~ msgstr " entre %1 y %2"
+
+#~ msgid " buy"
+#~ msgstr " comprar"
+
+#~ msgid " centered around"
+#~ msgstr " con centro en "
+
+#~ msgid " centered around %1"
+#~ msgstr " con centro en %1"
+
+#~ msgid " costing around %1"
+#~ msgstr " precio en torno a %1"
+
+#~ msgid " costing between %1 and %2"
+#~ msgstr " con precio entre %1 y %2"
+
+#~ msgid " costing less than %1 "
+#~ msgstr " precio inferior a %1 "
+
+#~ msgid " costing more than %1 "
+#~ msgstr " precio superior a %1 "
+
+#~ msgid " in "
+#~ msgstr " en "
+
+#~ msgid " in %1"
+#~ msgstr " en %1"
+
+#~ msgid " more than %1"
+#~ msgstr " más que %1"
+
+#~ msgid " near "
+#~ msgstr " cerca de "
+
+#~ msgid " or "
+#~ msgstr " o "
+
+#~ msgid " per month"
+#~ msgstr " al mes"
+
+#~ msgid " per week"
+#~ msgstr " a la semana"
+
+#~ msgid " pm"
+#~ msgstr " mes"
+
+#~ msgid " pw"
+#~ msgstr " sem."
+
+#~ msgid " rent"
+#~ msgstr " alquilar"
+
+#~ msgid " share"
+#~ msgstr " compartir"
+
+#~ msgid " studio apartment"
+#~ msgstr " estudio apartamento"
+
+#~ msgid " to "
+#~ msgstr " para "
+
+#~ msgid " to buy"
+#~ msgstr " compra"
+
+#~ msgid " under %1"
+#~ msgstr " menos que %1"
+
+#~ msgid " with "
+#~ msgstr " con "
+
+#~ msgid " with %1 or more beds"
+#~ msgstr " con %2 o más dormitorios"
+
+#~ msgid " with around %1 bed$plural"
+#~ msgstr " con cerca de %1 dormitorio$plural"
+
+#~ msgid "$nicename:"
+#~ msgstr "$nicename:"
+
+#~ msgid "$title"
+#~ msgstr "$título"
+
+#~ msgid "$title $transaction in"
+#~ msgstr "$título $transacción en"
+
+#~ msgid "%1 %2 - %3 sec."
+#~ msgstr "%1 %2 - %3 seg."
+
+#~ msgid "%1 %2 in %3 secs."
+#~ msgstr "%1 %2 - %3 seg."
+
+#~ msgid "%1 Information"
+#~ msgstr "Información sobre %1"
+
+#~ msgid "%1 and %2"
+#~ msgstr "%1 y %2"
+
+#~ msgid "%1 in %2"
+#~ msgstr "%1 en %2"
+
+#~ msgid "%1 markers accurate to 100m"
+#~ msgstr "La posición de cada %1 es apróximada (100 m. de margen de error)"
+
+#~ msgid "%1 near %2"
+#~ msgstr "%1 cerca de %2"
+
+#~ msgid "%1 nearby"
+#~ msgstr "%1 cerca"
+
+#~ msgid "%1 or more baths"
+#~ msgstr "%1 o más baños"
+
+#~ msgid "%1 to buy in %2"
+#~ msgstr "buscar %1 para comprar en %2"
+
+#~ msgid "%1 to rent in %2"
+#~ msgstr "buscar %1 para alquilar en %2"
+
+#~ msgid "%1 to share in %2"
+#~ msgstr "buscar %1 para comprar en %2"
+
+#~ msgid "%1, %2 (radius %3 miles, %4 km)"
+#~ msgstr "%1 latitud, %2 longitud (radio de %4 km)"
+
+#~ msgid "%quant(%1,Bath,Baths)"
+#~ msgstr "%quant(%1,Baño,Baños)"
+
+#~ msgid "%quant(%1,Bed,Beds)"
+#~ msgstr "%quant(%1,Dormitorio,Dormitorios)"
+
+#~ msgid "%quant(%1,Room,Rooms)"
+#~ msgstr "%quant(%1,Dormitorio,Dormitorios)"
+
+#~ msgid "%quant(%1,more photo,more photos)"
+#~ msgstr "%quant(%1,foto más,fotos más)"
+
+#~ msgid "%quant(%1,more,more)"
+#~ msgstr "%quant(%1,más,más)"
+
+#~ msgid "(fewer first)"
+#~ msgstr "(de menor a mayor)"
+
+#~ msgid "(more first)"
+#~ msgstr "(de más a menos)"
+
+#~ msgid "(newer first)"
+#~ msgstr "(más reciente primero)"
+
+#~ msgid "(older first)"
+#~ msgstr "(menos reciente primero)"
+
+#~ msgid "Test This String"
+#~ msgstr "Test This String"
+
+#~ msgid "test this string"
+#~ msgstr "test this string"
+
+#~ msgid "(per month)"
+#~ msgstr "(al mes)"
+
+#~ msgid "(per week)"
+#~ msgstr "(a la semana)"
+
+#~ msgid ", "
+#~ msgstr " , "
+
+#~ msgid "-"
+#~ msgstr "-"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "... but please select one of the above %1 areas first."
+#~ msgstr "... que debes seleccionar primero una de las áreas en %1."
+
+#~ msgid "... or ..."
+#~ msgstr "... o ..."
+
+#~ msgid "1 bed"
+#~ msgstr "1 dorm."
+
+#~ msgid "1000+"
+#~ msgstr "Más de 1000"
+
+#~ msgid "2 bed"
+#~ msgstr "2 dorm."
+
+#~ msgid "3 bed"
+#~ msgstr "3 dorm."
+
+#~ msgid "4 bed"
+#~ msgstr "4 dorm."
+
+#~ msgid ""
+#~ "<span class='red'>Too many %1?</span> Limit your search. Use the <span "
+#~ "style='font-weight:bold'>sliders at the top</span> or <span style='font-"
+#~ "weight:bold'>re-centre the map</span>."
+#~ msgstr ""
+#~ "<span class='rojo'>Demasiados %1?</span> Limita tu búsqueda. Utiliza "
+#~ "<span style='font-weight:negrita'>las barras deslizadoras de arriba</"
+#~ "span> o <span style='font-weight:negrita>recentra el mapa</span>."
+
+#~ msgid ""
+#~ "<strong>Wow, looks like we have found quite a few results for this "
+#~ "location!</strong><br />Why not try to narrow down your search by using "
+#~ "our<strong> Price</strong> and<strong> Room</strong> filters or "
+#~ "specifying<strong> additional search</strong> options."
+#~ msgstr ""
+#~ "<strong>Wow, ¡Parece que hemos encontrado demasiados resultados para esta "
+#~ "localidad!</strong><br />¿Por qué no acotar la búsqueda utilizando los "
+#~ "filtros de <strong>Precio</strong> y <strong>Dormitorios</strong> o "
+#~ "indicando <strong>más opciones</strong> de búsqueda adicionales?</p>"
+
+#~ msgid "Learn more"
+#~ msgstr "más información"
+
+#~ msgid "Add average house prices to your website or blog"
+#~ msgstr ""
+#~ "Inserta estadísticas de precios medios de casas en tu página web o blog"
+
+#~ msgid "Add properties to your website"
+#~ msgstr "Añadir inmuebles a tu página web"
+
+#~ msgid "All"
+#~ msgstr "Todos"
+
+#~ msgid "Auction"
+#~ msgstr "Subasta"
+
+#~ msgid "Australia"
+#~ msgstr "Australia"
+
+#~ msgid "Average House Prices"
+#~ msgstr "Precios medios de vivienda"
+
+#~ msgid "Average House Prices in %1"
+#~ msgstr "Precios medios de vivienda en %1"
+
+#~ msgid "Average Rental Prices"
+#~ msgstr "Precios mediosde alquiler"
+
+#~ msgid "Average Rental Prices in %1"
+#~ msgstr "Precios mediosde alquiler en %1"
+
+#~ msgid "Average house prices on your page, blog or website."
+#~ msgstr "Precios medios de casas en tu sitio web, página web o tu blog"
+
+#~ msgid "Beds"
+#~ msgstr "Dormitorios"
+
+#~ msgid "Brazil"
+#~ msgstr "Brasil"
+
+#~ msgid "Broaden your search using the sliders above."
+#~ msgstr "Amplía los criterios de búsqueda con los filtros de arriba."
+
+#~ msgid "Buy"
+#~ msgstr "Comprar"
+
+#~ msgid "Buy prices in %1"
+#~ msgstr "Precios de venta en %1"
+
+#~ msgid "Census"
+#~ msgstr "Censo"
+
+#~ msgid "Change your property preferences"
+#~ msgstr "Cambia tus preferencias"
+
+#~ msgid ""
+#~ "Nestoria only displays listings provided under agreement with <a href=\"/"
+#~ "help/adding-your-listings-to-nestoria\">our partners</a>"
+#~ msgstr ""
+#~ "Nestoria sólo muestra anuncios previstos bajo acuerdo por <a href=\"/"
+#~ "ayuda/incluye-tus-propiedades-en-nestoria\"> nuestros partners</a>"
+
+#~ msgid "Churches and places of worship"
+#~ msgstr "Iglesias y lugares de culto"
+
+#~ msgid "Click [[here]] to add Nestoria to your browser search engines"
+#~ msgstr ""
+#~ "Haz click [[aquí]] para añadir Nestoria a la lista de buscadores en tu "
+#~ "navegador"
+
+#~ msgid "Co-branded property search"
+#~ msgstr "Búsqueda compartida (co-branding)"
+
+#~ msgid "Copyright &copy; 2010 Lokku Ltd."
+#~ msgstr "Copyright &copy; 2010 Lokku Ltd."
+
+#~ msgid "Copyright 2010, Lokku Ltd."
+#~ msgstr "Copyright 2010, Lokku Ltd."
+
+#~ msgid "Data generously provided by:"
+#~ msgstr "Datos generosamente proporcionados por:"
+
+#~ msgid "Date"
+#~ msgstr "Fecha"
+
+#~ msgid "Description:"
+#~ msgstr "Descripción:"
+
+#~ msgid "Don't care"
+#~ msgstr " Indiferente"
+
+#~ msgid "Drag map to re-centre your search"
+#~ msgstr "Mueve el mapa<br/>para una nueva búsqueda"
+
+#~ msgid "Drat! We can't find any %1"
+#~ msgstr "¡Caramba! No pudimos encontrar %1"
+
+#~ msgid "Drat! We're unable to find %1 matching your query"
+#~ msgstr "¡Caramba! No pudimos encontrar %1 con tus parámetros de búsqueda"
+
+#~ msgid ""
+#~ "Dreadfully sorry, this is certainly embarrassing. <p/>I'm afraid we have "
+#~ "to ask that you try again a bit later. In the meanwhile why not amuse "
+#~ "yourself with <a href='http://www.youtube.com/browse?s=tr'>top rated "
+#~ "videos from YouTube</a>."
+#~ msgstr ""
+#~ "Lo sentimos, algo falló. <p/>No tenemos más remedio que pedirte paciencia "
+#~ "y que lo intentes más tarde. Mientas, puedes entretenerte leyendo <a "
+#~ "href='http://meneame.net/?category=35'>noticias curiosas en Menéame</a>."
+
+#~ msgid "Email alert sign-up failed."
+#~ msgstr "La alerta por email ha fallado."
+
+#~ msgid "Email this page to a friend"
+#~ msgstr "Envía esta página a un amigo o amiga"
+
+#~ msgid "Europe"
+#~ msgstr "Europa"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Favorites"
+#~ msgstr "Favoritos"
+
+#~ msgid "Find %1 in %2 like this:"
+#~ msgstr "Encuentra %1 en %2 como éstos:"
+
+#~ msgid "Find %1 near"
+#~ msgstr "Busca %1 cerca de"
+
+#~ msgid "Find out how we ((calculate house prices))."
+#~ msgstr "Descubre la metodogía de ((cálculo de precios de vivienda))."
+
+#~ msgid "Find properties"
+#~ msgstr "Casas y pisos"
+
+#~ msgid "Find properties to"
+#~ msgstr "Busca viviendas para"
+
+#~ msgid "Fire"
+#~ msgstr "Bomberos"
+
+#~ msgid "Fire Stn"
+#~ msgstr "Est. bomberos"
+
+#~ msgid "Flats"
+#~ msgstr "Pisos"
+
+#~ msgid "Flats for:"
+#~ msgstr "Pisos para:"
+
+#~ msgid "Floor space"
+#~ msgstr "Superficie"
+
+#~ msgid ""
+#~ "For further information see <a href=\"%1\" target=\"_blank\">our help "
+#~ "page</a>."
+#~ msgstr ""
+#~ "Para mas información puedes visitar <a href=\"%1\" target=\"_blank"
+#~ "\">nuestra página de ayuda</a>."
+
+#~ msgid "Get updates via email"
+#~ msgstr "Recibir actualizaciones por email"
+
+#~ msgid "Go to nestoria to see homes matching your search displayed on a map"
+#~ msgstr ""
+#~ "Puedes visitar Nestoria para ver las casas que coinciden con tu búsqueda "
+#~ "representadas en un mapa."
+
+#~ msgid "Google Earth / KML"
+#~ msgstr "Google Earth / KML"
+
+#~ msgid "Govt."
+#~ msgstr "Admin."
+
+#~ msgid "Have new properties delivered by email"
+#~ msgstr "Recibe nuevas propiedades por email"
+
+#~ msgid "Health"
+#~ msgstr "Salud"
+
+#~ msgid "Hello, this is the first %1 property alert from Nestoria for %2"
+#~ msgstr ""
+#~ "Hola, ésta es la primera alerta %1 que recibes de Nestoria.es para %2"
+
+#~ msgid ""
+#~ "Hello, you signed up to receive %1 property results from <a target="
+#~ "\"_blank\" href=\"%2\">Nestoria</a>."
+#~ msgstr ""
+#~ "Hola, te has suscrito para recibir resultados de propiedades de <a target="
+#~ "\"_blank\" href=\"%2\">Nestoria</a> cada día."
+
+#~ msgid "Help me find a new home"
+#~ msgstr "Ayúdame a encontrar casa"
+
+#~ msgid "Hide \"must haves\""
+#~ msgstr "Oculta panel de características"
+
+#~ msgid "Hide options"
+#~ msgstr "Sin restricciones"
+
+#~ msgid ""
+#~ "Hmm, sorry, but we don't know where you mean. Maybe you misspelled the "
+#~ "location?"
+#~ msgstr ""
+#~ "No hemos hallado tu búsqueda ¿No habrá habido un fallo ortográfico por "
+#~ "casualidad?"
+
+#~ msgid ""
+#~ "Hmm, sorry, there are lots of places with that name. Hard to know which "
+#~ "one you mean."
+#~ msgstr "Lo siento, hay muchos sitios con ese nombre o nombre parecido."
+
+#~ msgid "Home"
+#~ msgstr "Inicio"
+
+#~ msgid "Homes for sale in"
+#~ msgstr "Casas en venta en"
+
+#~ msgid "Homes for:"
+#~ msgstr "Casas para:"
+
+#~ msgid "Hospitals"
+#~ msgstr "Hospitales"
+
+#~ msgid "House Price Widget"
+#~ msgstr "Precios de Casas - Estadísticas"
+
+#~ msgid "House Prices Widget"
+#~ msgstr "Estadísticas de Precios de Casas"
+
+#~ msgid "Houses for:"
+#~ msgstr "Adosados o Chalets para:"
+
+#~ msgid "Houses or Flats"
+#~ msgstr "Pisos o chalets"
+
+#~ msgid "How often?"
+#~ msgstr "¿Con qué frecuencia?"
+
+#~ msgid "I thought you might be interested in this property"
+#~ msgstr "Quizás esta casa te interese"
+
+#~ msgid "I use Nestoria to find properties, you should too!"
+#~ msgstr "Yo uso Nestoria para buscar casas, ¡pruébalo tú también!"
+
+#~ msgid "If it doesn't show up please check your spam folder"
+#~ msgstr ""
+#~ "Si no aparece, por favor comprueba tu carpeta de spam (correo no deseado)"
+
+#~ msgid ""
+#~ "If you no longer wish to receive these emails, please see instructions at "
+#~ "the bottom of this email."
+#~ msgstr ""
+#~ "Si no deseas recibir estos emails, por favor sigue las instrucciones que "
+#~ "encontrarás al final de este email."
+
+#~ msgid ""
+#~ "If you no longer wish to receive this %1 email, <a href="
+#~ "\"%2\">unsubscribe here</a>."
+#~ msgstr ""
+#~ "Si ya no deseas recibir esta alerta %1, puedes <a href=\"%2\">darte de "
+#~ "baja aquí</a>."
+
+#~ msgid "In your first alert we'll ask you to confirm by clicking on a link."
+#~ msgstr ""
+#~ "En la primera alerta te pediremos que confirmes haciendo click en un link."
+
+#~ msgid "India"
+#~ msgstr "India"
+
+#~ msgid "Interesting property web site:"
+#~ msgstr "Página Web interesante:"
+
+#~ msgid "Learn more about Nestoria alerts"
+#~ msgstr "Más acerca de las alertas de Nestoria"
+
+#~ msgid "Learn more about this data"
+#~ msgstr "Más información acerca de estos datos"
+
+#~ msgid "Let"
+#~ msgstr "Alquiler"
+
+#~ msgid "Loading data ..."
+#~ msgstr "Cargando información ..."
+
+#~ msgid "Loading data for %1 ..."
+#~ msgstr "Cargando información local ..."
+
+#~ msgid "Loading map of %1 ..."
+#~ msgstr "Cargando mapa de %1 ..."
+
+#~ msgid "Loading results, please wait..."
+#~ msgstr "Cargando resultados, por favor espera..."
+
+#~ msgid "Loading..."
+#~ msgstr "Cargando..."
+
+#~ msgid "Location"
+#~ msgstr "Localidad"
+
+#~ msgid "Location not in London"
+#~ msgstr "No está en Londres"
+
+#~ msgid "Location unknown"
+#~ msgstr "Situación desconocida"
+
+#~ msgid "Login with Facebook"
+#~ msgstr "Ingresa con Facebook"
+
+#~ msgid "Made possible via"
+#~ msgstr "Con la inestimable contribución de"
+
+#~ msgid "Map of Spain"
+#~ msgstr "Mapa de España"
+
+#~ msgid "Maybe you  made a mistake in cutting and pasting the URL?"
+#~ msgstr "¿Cometiste quizás algún error cortando y pegando la URL?"
+
+#~ msgid "Mid-Month Report - %1 %2"
+#~ msgstr "Estimación de tráfico %1 %2"
+
+#~ msgid "Min. Baths"
+#~ msgstr "Baños"
+
+#~ msgid "Min. Bedrooms"
+#~ msgstr "Dormitorios"
+
+#~ msgid "Min. Rooms"
+#~ msgstr "Dormitorios"
+
+#~ msgid "More property search options..."
+#~ msgstr "Añade criterios de búsqueda"
+
+#~ msgid "Most Popular Property Searches"
+#~ msgstr "Áreas más buscadas"
+
+#~ msgid "Must have"
+#~ msgstr "Obligatorio"
+
+#~ msgid "NHS health services"
+#~ msgstr "Centros de salud"
+
+#~ msgid "NO"
+#~ msgstr "NO"
+
+#~ msgid "Nestoria"
+#~ msgstr "Nestoria.es"
+
+#~ msgid "Nestoria - Sitemap"
+#~ msgstr "Índice de Páginas de Nestoria"
+
+#~ msgid "Nestoria - UK Property Search Engine"
+#~ msgstr "Nestoria - Búsqueda de Casas y Pisos"
+
+#~ msgid "Nestoria - UK property search engine"
+#~ msgstr "Nestoria.es - Buscador de viviendas en España"
+
+#~ msgid "Nestoria Property List Tool"
+#~ msgstr "Listados de viviendas"
+
+#~ msgid "Nestoria Property Search"
+#~ msgstr "Nestoria: Búsqueda de Casas"
+
+#~ msgid "Nestoria Search"
+#~ msgstr "Búsqueda de Casas - Nestoria"
+
+#~ msgid "Nestoria Team"
+#~ msgstr "Nestoria Team"
+
+#~ msgid "Nestoria UK property search"
+#~ msgstr "Nestoria.es, buscador inmobiliario para España"
+
+#~ msgid "Nestoria UK property search engine"
+#~ msgstr "Nestoria.es, buscador inmobiliario para España"
+
+#~ msgid "Nestoria homepage"
+#~ msgstr "Página principal de Nestoria"
+
+#~ msgid ""
+#~ "Nestoria is not liable for the accuracy and copyright of the information "
+#~ "of third parties contained in this page."
+#~ msgstr ""
+#~ "Nestoria no es responsable de la veracidad y copyright de la información "
+#~ "de terceras partes contenida en esta página."
+
+#~ msgid "New homes"
+#~ msgstr "Obra nueva"
+
+#~ msgid "New location:"
+#~ msgstr "Nueva localidad:"
+
+#~ msgid "Newest listings in %1"
+#~ msgstr "Viviendas más recientes en %1"
+
+#~ msgid "No properties at present"
+#~ msgstr "No hay viviendas de momento"
+
+#~ msgid "No results were found - please search again"
+#~ msgstr "No se hallaron resultados - por favor, inténtalo de nuevo"
+
+#~ msgid "No!"
+#~ msgstr "¡No!"
+
+#~ msgid "Not interested in %1"
+#~ msgstr "No interesado en %1"
+
+#~ msgid "Not what you are looking for?  View a different location:"
+#~ msgstr "¿No es lo qué estabas buscando? Ver otra localidad:"
+
+#~ msgid "Oh no! Something went wrong."
+#~ msgstr "¡Vaya! Algo ha ido mal"
+
+#~ msgid "Oh no, it looks like we're having problems with our databases!!!"
+#~ msgstr "¡Vaya! ¡Parece que algo ocurre en nuestras bases de datos!"
+
+#~ msgid "Once you confirm we'll begin sending regularly."
+#~ msgstr "Cuando lo hagas, comenzaremos a mandartelas regularmente."
+
+#~ msgid "Only new homes"
+#~ msgstr "sólo obra nueva"
+
+#~ msgid "Or try our"
+#~ msgstr "También"
+
+#~ msgid "Parking"
+#~ msgstr "Parking"
+
+#~ msgid "Paste this map on your website or blog"
+#~ msgstr "Pega este mapa en tu sitio web o blog"
+
+#~ msgid "Pics"
+#~ msgstr "Fotos"
+
+#~ msgid "Please click"
+#~ msgstr "Clica por favor en el botón naranja"
+
+#~ msgid "Please do not reply to this email."
+#~ msgstr "Por favor, no contestes a este email."
+
+#~ msgid "Please enter a location. Use places or postcodes. Go crazy."
+#~ msgstr "Pon una ciudad. Usa localidades o códigos postales. A tu bola."
+
+#~ msgid "Please enter your friend's email address:"
+#~ msgstr "Por favor, escribe la dirección de email de tu amigo:"
+
+#~ msgid "Please get in touch with us"
+#~ msgstr "Por favor, contacta con nosotros"
+
+#~ msgid "Please let us know what you think"
+#~ msgstr "Envíanos por favor tus críticas"
+
+#~ msgid ""
+#~ "Please note, it may unfortunately take up to 24 hours for the unsubscribe "
+#~ "to take effect."
+#~ msgstr ""
+#~ "Por favor, ten en cuenta que, desgraciadamente, la baja tardará 24 horas "
+#~ "en tomar efecto."
+
+#~ msgid "Please press Apple-D to add the bookmark."
+#~ msgstr "Teclea Apple-D para añadir la página a tus favoritos."
+
+#~ msgid "Please press CTRL-D to add the bookmark."
+#~ msgstr "Teclea CTRL-D para añadir la página a tus favoritos."
+
+#~ msgid "Please search again"
+#~ msgstr "Por favor, busca de nuevo"
+
+#~ msgid "Please select an area or use the search box above."
+#~ msgstr "Por favor, selecciona un área o usa la caja de búsqueda de arriba."
+
+#~ msgid ""
+#~ "Please select one, use the map, or search again using the search box "
+#~ "above. Thanks."
+#~ msgstr ""
+#~ "Por favor haz una selección, usa el mapa, o busca de nuevo usando la caja "
+#~ "de búsqueda de arriba. Gracias."
+
+#~ msgid "Please sign in and set your location"
+#~ msgstr "Por favor, conectaté e indica tu localidad"
+
+#~ msgid "Please solve this puzzle"
+#~ msgstr "Resuelve este puzzle"
+
+#~ msgid "Please try again!"
+#~ msgstr "Inténtalo de nuevo por favor!"
+
+#~ msgid "Please try again."
+#~ msgstr "Inténtalo de nuevo por favor."
+
+#~ msgid "Please try changing your search options."
+#~ msgstr "Por favor, inténtalo de nuevo cambiando las opciones de búsqueda."
+
+#~ msgid "Police"
+#~ msgstr "Policía"
+
+#~ msgid "Popular %1 areas:"
+#~ msgstr "Areas populares en %1:"
+
+#~ msgid "Popular property searches in"
+#~ msgstr "Áreas más buscadas en"
+
+#~ msgid "Powered by %1"
+#~ msgstr "Hecho con %1"
+
+#~ msgid "Powered by:"
+#~ msgstr "Hecho con:"
+
+#~ msgid "Price/m&sup2;"
+#~ msgstr "&euro;/m&sup2;"
+
+#~ msgid "Price:"
+#~ msgstr "Precio:"
+
+#~ msgid "Prices"
+#~ msgstr "Precios"
+
+#~ msgid ""
+#~ "Properties in locations in the UK from %1 to %2 sorted alphabetically"
+#~ msgstr ""
+#~ "Propiedades en localidades españolas ordenadas alfabéticamente desde %1 "
+#~ "hasta %2"
+
+#~ msgid "Properties to"
+#~ msgstr "Casas en"
+
+#~ msgid "Properties to %1"
+#~ msgstr "Casas en %1"
+
+#~ msgid "Property"
+#~ msgstr "Casas"
+
+#~ msgid "Property List Tool"
+#~ msgstr "Listados de viviendas"
+
+#~ msgid "Property Price Trends in <b>%1</b>"
+#~ msgstr "Estadísticas en <b>%1</b>"
+
+#~ msgid "Property Search"
+#~ msgstr "Búsqueda de Casas y Pisos"
+
+#~ msgid "Property and Homes Property Search by Nestoria"
+#~ msgstr "Pisos y Viviendas por Nestoria"
+
+#~ msgid "Property features"
+#~ msgstr "Características"
+
+#~ msgid "Property for:"
+#~ msgstr "Casas para:"
+
+#~ msgid "Property to buy in "
+#~ msgstr "Casa para comprar en "
+
+#~ msgid "Pubs"
+#~ msgstr "Bares"
+
+#~ msgid ""
+#~ "Read our <a href=\"%1\" target=\"_blank\">email alerts help page</a> for "
+#~ "more information"
+#~ msgstr ""
+#~ "Para más información, echa un vistazo a nuestra <a href=\"%1\" target="
+#~ "\"_blank\">página de ayuda para alertas por email</a>"
+
+#~ msgid ""
+#~ "Real estate property search. Search over 400,000 flats and houses in the "
+#~ "UK."
+#~ msgstr ""
+#~ "Buscador de casas en venta y alquiler en España. Las ofertas "
+#~ "inmobiliarias más atractivas aparecerán en tus mapas."
+
+#~ msgid "Redirecting..."
+#~ msgstr "Redirección a..."
+
+#~ msgid "Religion"
+#~ msgstr "Religión"
+
+#~ msgid "Rent"
+#~ msgstr "Alquiler"
+
+#~ msgid "Rental Price Trends in <b>%1</b>"
+#~ msgstr "Estadísticas en <b>%1</b>"
+
+#~ msgid "Rental prices in %1"
+#~ msgstr "Precios de alquiler en %1"
+
+#~ msgid "Return to your property search"
+#~ msgstr "Retoma tu búsqueda en Nestoria"
+
+#~ msgid "Rooms"
+#~ msgstr "Dormitorios"
+
+#~ msgid "Schools"
+#~ msgstr "Escuelas"
+
+#~ msgid "Search Location"
+#~ msgstr "Busca localidad"
+
+#~ msgid "Search!"
+#~ msgstr "Buscar!"
+
+#~ msgid "Searching..."
+#~ msgstr "Buscando..."
+
+#~ msgid ""
+#~ "See more <a href=\"%1\" rel=\"nofollow\">%2 listings and location "
+#~ "information</a> on Nestoria"
+#~ msgstr ""
+#~ "Ver más <a href=\"%1\" rel=\"nofollow\">viviendas de %2</a> en Nestoria"
+
+#~ msgid "See more info and property listings from this area"
+#~ msgstr "Ver más información y listados de esta zona"
+
+#~ msgid "See these "
+#~ msgstr "Mira estas "
+
+#~ msgid "See these results on %1"
+#~ msgstr "Estas viviendas en %1"
+
+#~ msgid "Select a %1 area:"
+#~ msgstr "Clica en una de las zonas de %1:"
+
+#~ msgid "Select one of the %1 areas below to browse %2."
+#~ msgstr "Elige una de las %1 areas abajo para navegar %2."
+
+#~ msgid "Select one of the %1 areas below to browse %2:"
+#~ msgstr "Elige una de las áreas en %1 para ayudarnos a localizar %2:"
+
+#~ msgid ""
+#~ "Select one of the areas above to browse %1 by price, number of bedrooms, "
+#~ "number of bathrooms, or type of property."
+#~ msgstr ""
+#~ "Clica en una de los barrios arriba para encontrar %1 por precios, número "
+#~ "de dormitorios, número de baños y tipo de vivienda (pisos, casas, "
+#~ "chalets, adosados, etc)."
+
+#~ msgid "Share"
+#~ msgstr "Compartir"
+
+#~ msgid "Shops"
+#~ msgstr "Tiendas"
+
+#~ msgid "Show \"must haves\""
+#~ msgstr "Muestra panel de características"
+
+#~ msgid "Show %1 %2 on map."
+#~ msgstr "Mostrar %1 %2 en el mapa."
+
+#~ msgid "Show %1 on map."
+#~ msgstr "Mostrar %1 en el mapa."
+
+#~ msgid "Sign in and set your location"
+#~ msgstr "Conectaté e indica tu localidad"
+
+#~ msgid "Sign up for an email alert for this search."
+#~ msgstr "Recibe una alerta por email para esta búsqueda."
+
+#~ msgid "Similarity"
+#~ msgstr "Similares"
+
+#~ msgid "Sitemap"
+#~ msgstr "Índice de Páginas"
+
+#~ msgid "Sorry! We were unable to find any information for that location"
+#~ msgstr "¡Disculpa! No hemos podido encontrar información sobre la localidad"
+
+#~ msgid "Sorry, currently Nestoria is only listing properties in London. "
+#~ msgstr "Lo sentimos, de momento Nestoria sólo busca vivienda en Londres. "
+
+#~ msgid "Sorry, no %1 found"
+#~ msgstr "Lo sentimos, no se ha hallado %1"
+
+#~ msgid "Sorry, the coordinates you specified are outside of the UK."
+#~ msgstr ""
+#~ "Las coordenadas que determinaste en tu búsqueda están fuera de España."
+
+#~ msgid ""
+#~ "Sorry, the coordinates you specified seem to be invalid. Probably a typo. "
+#~ "No reason for alarm though, just search again"
+#~ msgstr ""
+#~ "Lo sentimos, las coordenadas que has elegido no parecen válidas. Un "
+#~ "simple error, probablemente, no te preocupes, simplemente busca de nuevo."
+
+#~ msgid "Sorry, there are several places in the UK called '%1'."
+#~ msgstr "Lo sentimos, hay varios lugares en España llamados '%1'."
+
+#~ msgid "Sorry, there are several possible matches for '%1'."
+#~ msgstr "Lo sentimos, hay varios resultados posibles para '%1'."
+
+#~ msgid "Sorry, we are unable to validate your email address."
+#~ msgstr "Lo sentimos, no hemos podido validar tu dirección de email."
+
+#~ msgid "Sorry, we could not find any places by that name."
+#~ msgstr ""
+#~ "Desafortunadamente, no hemos podido hallar localidades que casen con tu "
+#~ "búsqueda."
+
+#~ msgid "Sorry, we only offer our property search in the UK."
+#~ msgstr "Lo sentimos; ofrecemos búsquedas de viviendas tan sólo en España."
+
+#~ msgid "Sorry, you didn't solve the puzzle correctly."
+#~ msgstr "Lo sentimos, no has conseguido resolver el puzzle correctamente."
+
+#~ msgid "Sort:"
+#~ msgstr "Orden:"
+
+#~ msgid "Spain"
+#~ msgstr "España"
+
+#~ msgid "Studio"
+#~ msgstr "Estudio"
+
+#~ msgid "Suggestions:"
+#~ msgstr "Sugerencias:"
+
+#~ msgid "Tagzania"
+#~ msgstr "Puntos de interés"
+
+#~ msgid "Tax"
+#~ msgstr "Impuestos"
+
+#~ msgid "Tell us who you are"
+#~ msgstr "Cuéntanos quién eres"
+
+#~ msgid "Tell your friends about Nestoria"
+#~ msgstr "Presenta Nestoria a tus amigos/as"
+
+#~ msgid "Thanks for being a Nestoria beta tester!"
+#~ msgstr "¡Gracias por probar Nestoria en beta!"
+
+#~ msgid "Thanks for using Nestoria and good luck in your house hunt."
+#~ msgstr ""
+#~ "Gracias por utilizar Nestoria y buena suerte en tu búsqueda inmobiliaria."
+
+#~ msgid "The area you selected is quite large!"
+#~ msgstr "¡El área que has seleccionado es muy extensa!"
+
+#~ msgid "The coordinates you specified are outside of the UK."
+#~ msgstr ""
+#~ "Las coordenadas que determinaste en tu búsqueda están fuera de España."
+
+#~ msgid ""
+#~ "The email address you specified doesn't seem valid. Perhaps there is a "
+#~ "typo?"
+#~ msgstr ""
+#~ "La dirección de email que especificas parece que no es válida. ¿Puede que "
+#~ "haya alguna errata?"
+
+#~ msgid "The email addresses you provided didn't match."
+#~ msgstr "Las direcciones de email que has escrito no coinciden."
+
+#~ msgid ""
+#~ "The home shown above is the most recently updated since your last email."
+#~ msgstr ""
+#~ "Las casa que se muestra arriba es la ultima actualizada desde tu último "
+#~ "email."
+
+#~ msgid ""
+#~ "The homes shown above are the %1 most recently updated since your last "
+#~ "email."
+#~ msgstr ""
+#~ "Las casas que se muestran arriba son las %1 últimas actualizadas desde tu "
+#~ "último email."
+
+#~ msgid "There is no local information available for this area."
+#~ msgstr "No hay información local para este área."
+
+#~ msgid ""
+#~ "This email is only available in HTML. We do not offer a text-only version."
+#~ msgstr ""
+#~ "Este email está disponible sólo en HTML. No ofrecemos una versión sin "
+#~ "imagenes ni formato (sólo texto)."
+
+#~ msgid "This email was sent to <b>%1</b>."
+#~ msgstr "Este email fue enviado a <b>%1</b>."
+
+#~ msgid "This property is in the congestion charging zone"
+#~ msgstr "Esta vivienda se halla en la zona de aparcamiento regulado"
+
+#~ msgid "This will widen the area of your search."
+#~ msgstr "Esto ampliará el área de tu búsqueda."
+
+#~ msgid ""
+#~ "To get the most from this app, please <a href='/v1/settings'>tell us what "
+#~ "kind of property you want</a>."
+#~ msgstr ""
+#~ "Para aprovechar al máximo esta aplicación, <a href='/v1/settings'>dinos "
+#~ "por favor que tipo de propiedad quieres</a>."
+
+#~ msgid "Too many %1?"
+#~ msgstr "¿Demasiadas %1?"
+
+#~ msgid "Too many flats!"
+#~ msgstr "Demasiados pisos!"
+
+#~ msgid "Too many houses!"
+#~ msgstr "Demasiados adosados o chalets!"
+
+#~ msgid "Too many properties!"
+#~ msgstr "Demasiadas casas!"
+
+#~ msgid "Tools for webmasters"
+#~ msgstr "Herramientas para webmasters"
+
+#~ msgid "Traffic Report & Invoice - %1 %2"
+#~ msgstr "Informes de tráfico - %1 %2"
+
+#~ msgid "Train"
+#~ msgstr "Tren"
+
+#~ msgid "Trainstations"
+#~ msgstr "Estaciones de tren"
+
+#~ msgid "Tram"
+#~ msgstr "Tranvía"
+
+#~ msgid "Try the postcode or a nearby area por favor. Ta."
+#~ msgstr "Inténtalo con un código postal o un área cercana, por favor."
+
+#~ msgid "Try zooming out or re-centering the map."
+#~ msgstr "Aleja el zoom o centra el mapa de nuevo."
+
+#~ msgid "Tube"
+#~ msgstr "Metro"
+
+#~ msgid "Type of Property"
+#~ msgstr "Tipo de casa"
+
+#~ msgid "Type of property"
+#~ msgstr "Tipo de casa"
+
+#~ msgid "Type the two words you read in the top box into the bottom field"
+#~ msgstr "Escribe las dos palabras que lees en la caja en el campo de abajo"
+
+#~ msgid "Type the two words you see into the field below"
+#~ msgstr "Escribe las dos palabras que lees en el cuadro de abajo"
+
+#~ msgid "UK locations sorted alphabetically from %1 to %2"
+#~ msgstr "Localidades españolas ordenadas alfabéticamente desde %1 hasta %2"
+
+#~ msgid ""
+#~ "Unfortunately we were unable to find any locations matching your query."
+#~ msgstr ""
+#~ "Desafortunadamente no pudimos encontrar ninguna localidad con el nombre "
+#~ "especificado en tu búsqueda."
+
+#~ msgid "Unsubscribe failed"
+#~ msgstr "La petición de baja ha fallado"
+
+#~ msgid "Update Your Search"
+#~ msgstr "Busca"
+
+#~ msgid "Use the 'more options' to sort and filter"
+#~ msgstr "En 'más opciones' puedes reordenar y filtrar los resultados"
+
+#~ msgid "Use the links above to narrow your search."
+#~ msgstr "Usa los enlaces de arriba para concretar tu búsqueda."
+
+#~ msgid "Use the sliders to narrow your search"
+#~ msgstr "Mueve los diales para limitar tu búsqueda "
+
+#~ msgid "View these properties on a map"
+#~ msgstr "Ver estas viviendas en el mapa"
+
+#~ msgid "Viewing the newest property in"
+#~ msgstr "Estás viendo los listados más recientes en"
+
+#~ msgid "Warning!"
+#~ msgstr "¡Atención!"
+
+#~ msgid "We also offer Nestoria in other countries:"
+#~ msgstr "También ofrecemos Nestoria en otros países"
+
+#~ msgid "We also offer property search in other countries"
+#~ msgstr "También ofrecemos búsqueda de casas en otros países"
+
+#~ msgid "We are Lokku Ltd."
+#~ msgstr "Somos Lokku Ltd."
+
+#~ msgid "We ask you this to make sure you're human."
+#~ msgstr "Te pedimos ésto basicamente para asegurarnos de que eres humano"
+
+#~ msgid "We have many more %1"
+#~ msgstr "Tenemos tantas %1..."
+
+#~ msgid "We'll send you regular emails with new and updated properties"
+#~ msgstr ""
+#~ "Te enviaremos regularmente mensajes de correo electrónico con propiedades "
+#~ "nuevas y actualizaciones"
+
+#~ msgid ""
+#~ "We'll send you regular emails with new and updated properties (and only "
+#~ "those!)."
+#~ msgstr ""
+#~ "Te enviaremos regularmente emails con nuevas y/o actualizadas propiedades "
+#~ "(¡solo esas mismas!)"
+
+#~ msgid "What kind of property would you like to see?"
+#~ msgstr "¿Qué tipo de propiedad te gustaría ver?"
+
+#~ msgid "Wifi"
+#~ msgstr "Wifi"
+
+#~ msgid "YES"
+#~ msgstr "SI"
+
+#~ msgid "Yes!"
+#~ msgstr "¡Sí!"
+
+#~ msgid "You are being redirected..."
+#~ msgstr "Estamos redireccionando a..."
+
+#~ msgid "You are now subscribed!"
+#~ msgstr "¡Ya estás suscrito!"
+
+#~ msgid "You are signing up for:"
+#~ msgstr "Te estás dando de alta para:"
+
+#~ msgid "You didn't specify a URL."
+#~ msgstr "No has especificado ninguna URL."
+
+#~ msgid "You forgot to fill in one of the required fields."
+#~ msgstr "Te has olvidado de rellenar uno de los campos obligatorios."
+
+#~ msgid "You have successfully unsubscribed."
+#~ msgstr "Te has dado de baja con éxito."
+
+#~ msgid "You may need to zoom out to see all markers."
+#~ msgstr "Aleja el zoom para ver todos los puntos del mapa."
+
+#~ msgid "You need to click \"YES\" to continue receiving this alert."
+#~ msgstr "Debes de hacer click en \"SI\" para seguir recibiendo alertas"
+
+#~ msgid "Your email address"
+#~ msgstr "Tu dirección de email"
+
+#~ msgid "Your email address has been confirmed."
+#~ msgstr "Tu dirección de email ha sido confirmada"
+
+#~ msgid "Your first alert should arrive tomorrow!"
+#~ msgstr "¡Tu primera alerta por email debería de llegar mañana!"
+
+#~ msgid "Your first alert will arrive tomorrow"
+#~ msgstr "Tu primera alerta por email debería de llegar mañana"
+
+#~ msgid "Your own version of Nestoria"
+#~ msgstr "Tu propia versión de Nestoria.es"
+
+#~ msgid "Your search may be too narrow."
+#~ msgstr "Tu búsqueda parece demasiado restringida."
+
+#~ msgid "Your search seems to be for a location outside of greater London."
+#~ msgstr "Tu búsqueda parece referirse a algo fuera del gran Londres."
+
+#~ msgid ""
+#~ "Zoom, move the map or change any of the options below to see new "
+#~ "properties."
+#~ msgstr ""
+#~ "Haz zoom, mueve el mapa o cambia las opciones para refrescar resultados."
+
+#~ msgid "a month ago"
+#~ msgstr "hace 1 mes"
+
+#~ msgid "above"
+#~ msgstr "de arriba."
+
+#~ msgid "add to your website or blog"
+#~ msgstr "añadir a tu página web o blog"
+
+#~ msgid "all homes"
+#~ msgstr "todas"
+
+#~ msgid "alls"
+#~ msgstr "todas"
+
+#~ msgid "and"
+#~ msgstr "u"
+
+#~ msgid "any"
+#~ msgstr "ninguno"
+
+#~ msgid "any type of property"
+#~ msgstr "cualquier tipo de vivienda"
+
+#~ msgid "area list"
+#~ msgstr "áreas"
+
+#~ msgid "around"
+#~ msgstr "circa"
+
+#~ msgid "as a"
+#~ msgstr "como"
+
+#~ msgid "average asking prices from"
+#~ msgstr "precios medios de la oferta de"
+
+#~ msgid "average house price trends"
+#~ msgstr "aplicación de precios de casas"
+
+#~ msgid "average monthly asking prices"
+#~ msgstr "Precios mensuales de oferta"
+
+#~ msgid "back"
+#~ msgstr "anteriores"
+
+#~ msgid "bath"
+#~ msgstr "baño"
+
+#~ msgid "baths"
+#~ msgstr "baños"
+
+#~ msgid "bed"
+#~ msgstr "dormitorio"
+
+#~ msgid "beds"
+#~ msgstr "dormitorios"
+
+#~ msgid "bookmark"
+#~ msgstr "añadir a favoritos"
+
+#~ msgid "by"
+#~ msgstr "por"
+
+#~ msgid "by email"
+#~ msgstr "por email"
+
+#~ msgid "cancel"
+#~ msgstr "cancelar"
+
+#~ msgid "change"
+#~ msgstr "cámbialo"
+
+#~ msgid "cheap as chips"
+#~ msgstr "barato, barato"
+
+#~ msgid "continue to send me this alert"
+#~ msgstr "sequir enviándome esta alerta"
+
+#~ msgid "Create your alert"
+#~ msgstr "Crea una alerta"
+
+#~ msgid "current zoom level"
+#~ msgstr "zoom actual"
+
+#~ msgid "daily"
+#~ msgstr "diaria"
+
+#~ msgid "e.g. W6, Chelsea"
+#~ msgstr "Moncloa, Valencia, etc."
+
+#~ msgid "emails don't match"
+#~ msgstr "los emails no coinciden"
+
+#~ msgid "export results"
+#~ msgstr "exportar resultados"
+
+#~ msgid "feedback"
+#~ msgstr "envía tus comentarios"
+
+#~ msgid "first seen"
+#~ msgstr "actualizado"
+
+#~ msgid "flat"
+#~ msgstr "piso"
+
+#~ msgid "flats"
+#~ msgstr "pisos"
+
+#~ msgid "flats for rent"
+#~ msgstr "pisos en alquiler"
+
+#~ msgid "flats for sale"
+#~ msgstr "pisos en venta"
+
+#~ msgid "flats for sale in"
+#~ msgstr "pisos en venta en"
+
+#~ msgid "flats in %1"
+#~ msgstr "pisos en %1"
+
+#~ msgid "flats to rent"
+#~ msgstr "pisos en alquiler"
+
+#~ msgid "flats to rent in"
+#~ msgstr "pisos en alquiler en"
+
+#~ msgid "flatshare"
+#~ msgstr "compartir"
+
+#~ msgid "flatshares"
+#~ msgstr "pisos y habitaciones para compartir"
+
+#~ msgid "follow nestoria on twitter"
+#~ msgstr "sigue a nestoria en twitter"
+
+#~ msgid "for %1 to buy"
+#~ msgstr "buscar %1 para comprar"
+
+#~ msgid "for %1 to rent"
+#~ msgstr "buscar %1 para alquilar"
+
+#~ msgid "for %1 to share"
+#~ msgstr "buscar %1 para compartir"
+
+#~ msgid "for any property near %1"
+#~ msgstr "para cualquier propiedad cerca de %1"
+
+#~ msgid "from"
+#~ msgstr "de"
+
+#~ msgid "geo fun"
+#~ msgstr "geo-diversión"
+
+#~ msgid "go to agent"
+#~ msgstr "ir a la agencia"
+
+#~ msgid "health facilities"
+#~ msgstr "centros sanitarios"
+
+#~ msgid "hide options"
+#~ msgstr "oculta opciones"
+
+#~ msgid "hide search options"
+#~ msgstr "oculta opciones"
+
+#~ msgid "homes"
+#~ msgstr "casas"
+
+#~ msgid "house"
+#~ msgstr "adosado o chalet"
+
+#~ msgid "houses"
+#~ msgstr "adosados o chalets"
+
+#~ msgid "houses for rent"
+#~ msgstr "adosados y chalets en alquiler"
+
+#~ msgid "houses for sale"
+#~ msgstr "adosados y chalets en venta"
+
+#~ msgid "houses for sale in"
+#~ msgstr "adosados o chalets en venta en"
+
+#~ msgid "houses in %1"
+#~ msgstr "adosados y chalets en %1"
+
+#~ msgid "houses to rent"
+#~ msgstr "adosados o chalets en alquiler"
+
+#~ msgid "in your browser"
+#~ msgstr "en tu navegador"
+
+#~ msgid "in your news reader / RSS"
+#~ msgstr "en tu lector de noticias / feeds / RSS"
+
+#~ msgid "is searching for"
+#~ msgstr "is searching for"
+
+#~ msgid "just searched for"
+#~ msgstr "acaba de buscar"
+
+#~ msgid "land"
+#~ msgstr "terreno"
+
+#~ msgid "last week"
+#~ msgstr "hace 1 semana"
+
+#~ msgid "less than"
+#~ msgstr "inferior a"
+
+#~ msgid "less than %1 days ago"
+#~ msgstr "menos de hace %1 días"
+
+#~ msgid "less than 3 weeks ago"
+#~ msgstr "menos de hace 3 semanas"
+
+#~ msgid "less than a fortnight ago"
+#~ msgstr "menos de hace 2 semanas"
+
+#~ msgid "less than a month ago"
+#~ msgstr "menos de hace 1 mes"
+
+#~ msgid "let"
+#~ msgstr "alquilar"
+
+#~ msgid "looks good"
+#~ msgstr "parece correcto"
+
+#~ msgid "mFind %1 in %2 like this:"
+#~ msgstr "Encuentra %1 en %2 como éstas:"
+
+#~ msgid "map"
+#~ msgstr "mapa"
+
+#~ msgid "massive"
+#~ msgstr "enorme"
+
+#~ msgid "maximum number of bedrooms"
+#~ msgstr "máximo n. de dormitorios"
+
+#~ msgid "Maximum one email per day per location you are interested in"
+#~ msgstr "Te enviaremos un email al día como máximo"
+
+#~ msgid "maximum price"
+#~ msgstr "precio máximo"
+
+#~ msgid "minimum number of bathrooms"
+#~ msgstr "número mínimo de baños"
+
+#~ msgid "minimum number of bedrooms"
+#~ msgstr "número mínimo de dormitorios"
+
+#~ msgid "minimum price"
+#~ msgstr "precio mínimo"
+
+#~ msgid "monthly"
+#~ msgstr "mensual"
+
+#~ msgid "more "
+#~ msgstr "más "
+
+#~ msgid "more flats like this"
+#~ msgstr "pisos similares"
+
+#~ msgid "more homes like this"
+#~ msgstr "casas similares"
+
+#~ msgid "more houses like this"
+#~ msgstr "casas similares"
+
+#~ msgid "more like this"
+#~ msgstr "similares"
+
+#~ msgid "more options.."
+#~ msgstr "más opciones.."
+
+#~ msgid "more property like this"
+#~ msgstr "casas similares"
+
+#~ msgid "more search options"
+#~ msgstr "más opciones"
+
+#~ msgid "near LOCATION"
+#~ msgstr "cerca de LOCATION"
+
+#~ msgid "new homes"
+#~ msgstr "obra nueva"
+
+#~ msgid "next"
+#~ msgstr "siguientes"
+
+#~ msgid "no commision"
+#~ msgstr "sin comisión"
+
+#~ msgid "no limit"
+#~ msgstr "sin máximo"
+
+#~ msgid "no maximum"
+#~ msgstr "sin máximo"
+
+#~ msgid "no results"
+#~ msgstr "sin resultados"
+
+#~ msgid "no thanks, take me back"
+#~ msgstr "no gracias, me gustaría volver atrás"
+
+#~ msgid "not on map"
+#~ msgstr "no en el mapa"
+
+#~ msgid "note - you may need to zoom out to see all locations."
+#~ msgstr ""
+#~ "Nota - puede que necesites alejar el zoom para ver todos los puntos del "
+#~ "mapa."
+
+#~ msgid "of %1"
+#~ msgstr "en %1"
+
+#~ msgid "of %2 in %1"
+#~ msgstr "de %2 en %1"
+
+#~ msgid "on delicious"
+#~ msgstr "en del.icio.us"
+
+#~ msgid "on your site:"
+#~ msgstr "en tu sitio:"
+
+#~ msgid "once more please"
+#~ msgstr "una vez más, por favor"
+
+#~ msgid "or <a href='%1'>return to the Nestoria homepage</a>"
+#~ msgstr "o vuelve al <a href='%1'>inicio de Nestoria.es</a>"
+
+#~ msgid "or limit your search to"
+#~ msgstr "o selecciona "
+
+#~ msgid "or try searching for"
+#~ msgstr "intenta buscando"
+
+#~ msgid "or try searching:"
+#~ msgstr "intenta buscando:"
+
+#~ msgid "other countries"
+#~ msgstr "otros países"
+
+#~ msgid "other property tools..."
+#~ msgstr "otras herramientas inmobilarias ..."
+
+#~ msgid "over a month ago"
+#~ msgstr "más de 1 mes"
+
+#~ msgid "pastable list"
+#~ msgstr "listado"
+
+#~ msgid "photo of property"
+#~ msgstr "foto de la propiedad"
+
+#~ msgid "places of worship"
+#~ msgstr "lugares de culto"
+
+#~ msgid "please check"
+#~ msgstr "por favor, compruebalo"
+
+#~ msgid "please stop"
+#~ msgstr "detente, por favor"
+
+#~ msgid "please try some of our most popular London property searches:"
+#~ msgstr "inténtalo con algunas de las búsquedas más populares en Londres:"
+
+#~ msgid "please try some of our most popular UK property searches:"
+#~ msgstr "inténtalo con algunas de las búsquedas más populares en España:"
+
+#~ msgid "please try some of our most popular searches:"
+#~ msgstr "inténtalo con alguna de las búsquedas más populares:"
+
+#~ msgid "prices down"
+#~ msgstr "precios decrecientes"
+
+#~ msgid "prices down in %1"
+#~ msgstr "precios decrecientes en %1"
+
+#~ msgid "prices up"
+#~ msgstr "precios crecientes"
+
+#~ msgid "prices up in %1"
+#~ msgstr "precios crecientes en %1"
+
+#~ msgid "properties"
+#~ msgstr "viviendas"
+
+#~ msgid "properties for sale in"
+#~ msgstr "casas en venta en"
+
+#~ msgid "properties in %1"
+#~ msgstr "viviendas en %1"
+
+#~ msgid "properties on a map"
+#~ msgstr "viviendas en el mapa"
+
+#~ msgid "properties to"
+#~ msgstr "casas en"
+
+#~ msgid "properties to %1"
+#~ msgstr "casas para %1"
+
+#~ msgid "properties to buy"
+#~ msgstr "casas en venta"
+
+#~ msgid "properties to let"
+#~ msgstr "casas en alquiler"
+
+#~ msgid "properties to rent in"
+#~ msgstr "casas en alquiler en"
+
+#~ msgid "property for rent"
+#~ msgstr "casas en alquiler"
+
+#~ msgid "property for sale"
+#~ msgstr "casas en venta"
+
+#~ msgid "property map"
+#~ msgstr "mapa de viviendas"
+
+#~ msgid "property result list"
+#~ msgstr "listado de los resultados en esta zona"
+
+#~ msgid "pubs"
+#~ msgstr "restaurantes"
+
+#~ msgid "recommend"
+#~ msgstr "recomendar"
+
+#~ msgid "refresh results"
+#~ msgstr "refrescar resultados"
+
+#~ msgid "retry"
+#~ msgstr "reintentar"
+
+#~ msgid "sale"
+#~ msgstr "comprar"
+
+#~ msgid "sat"
+#~ msgstr "satélite"
+
+#~ msgid "schools"
+#~ msgstr "escuelas"
+
+#~ msgid "search"
+#~ msgstr "busca"
+
+#~ msgid "search this area"
+#~ msgstr "buscar en este área"
+
+#~ msgid "see more flats like this"
+#~ msgstr "descubre más pisos como éstos"
+
+#~ msgid "see more homes like this"
+#~ msgstr "descubre más viviendas como éstas"
+
+#~ msgid "see more houses like this"
+#~ msgstr "descubre más casas como éstas"
+
+#~ msgid "set bookmark"
+#~ msgstr "guarda en favoritos"
+
+#~ msgid "share"
+#~ msgstr "compartir"
+
+#~ msgid "share on Facebook"
+#~ msgstr "compartirla en Facebook"
+
+#~ msgid "share/email/subscribe"
+#~ msgstr "comparte/email/subscribete"
+
+#~ msgid "sign me up"
+#~ msgstr "dame de alta"
+
+#~ msgid "similar properties"
+#~ msgstr "viviendas similares"
+
+#~ msgid "slider"
+#~ msgstr "dial"
+
+#~ msgid "so expensive it hurts"
+#~ msgstr "tan caro que duele"
+
+#~ msgid "stations"
+#~ msgstr "estaciones"
+
+#~ msgid "stay informed"
+#~ msgstr "recibe actualizaciones regulares"
+
+#~ msgid "studio"
+#~ msgstr "estudio apartamento"
+
+#~ msgid "subscribe to RSS feed"
+#~ msgstr "suscríbete al RSS"
+
+#~ msgid "supermarket"
+#~ msgstr "supermercado"
+
+#~ msgid "this area"
+#~ msgstr "este area"
+
+#~ msgid "this week"
+#~ msgstr "esta semana"
+
+#~ msgid "three weeks ago"
+#~ msgstr "hace 3 semanas"
+
+#~ msgid "tiny"
+#~ msgstr "pequeñito"
+
+#~ msgid "to"
+#~ msgstr "y"
+
+#~ msgid "to buy"
+#~ msgstr "en venta"
+
+#~ msgid "to buy on homepage"
+#~ msgstr "en venta"
+
+#~ msgid "to let"
+#~ msgstr "en alquiler"
+
+#~ msgid "to share"
+#~ msgstr "compartir"
+
+#~ msgid "tube lines"
+#~ msgstr "líneas de metro"
+
+#~ msgid "turn on map search"
+#~ msgstr "búsqueda en mapa"
+
+#~ msgid "two weeks ago"
+#~ msgstr "hace 2 semanas"
+
+#~ msgid ""
+#~ "Unsubscribe any time - just click on the link provided in every email"
+#~ msgstr ""
+#~ "Date de baja cuando quieras - simplemente haz click en el enlace que "
+#~ "incluimos en cada email"
+
+#~ msgid "up to"
+#~ msgstr "hasta"
+
+#~ msgid "update"
+#~ msgstr "actualizar"
+
+#~ msgid "update your settings"
+#~ msgstr "actualizar"
+
+#~ msgid "updating results..."
+#~ msgstr "Cargando información..."
+
+#~ msgid "used"
+#~ msgstr "usado"
+
+#~ msgid "via our Yahoo! Application"
+#~ msgstr "aplicación de Yahoo!"
+
+#~ msgid "view as KML"
+#~ msgstr "descarga el fichero KML"
+
+#~ msgid "We won't share your email address with anyone. Ever"
+#~ msgstr "No compartiremos con nadie tu dirección de email. Nunca"
+
+#~ msgid "weekly"
+#~ msgstr "semanal"
+
+#~ msgid "with"
+#~ msgstr "con"
+
+#~ msgid "without"
+#~ msgstr "sin"
+
+#~ msgid "without %1"
+#~ msgstr "sin %1"
+
+#~ msgid "without a %1"
+#~ msgstr "sin %1"
+
+#~ msgid "yesterday"
+#~ msgstr "ayer"
+
+#~ msgid "your first alert will arrive tomorrow"
+#~ msgstr "recibirás tu primera alerta mañana"
+
+#~ msgid "zoom in"
+#~ msgstr "zoom +"
+
+#~ msgid "zoom out"
+#~ msgstr "zoom -"
+
+#~ msgid "with around 1% bed"
+#~ msgstr "con alrededor de 1% dormitorio"
+
+#~ msgid "with around 1% beds"
+#~ msgstr "con alrededor de 1% dormitorios"
+
+#~ msgid "<< back"
+#~ msgstr "<< atrás"
+
+#~ msgid "<b>%1</b> - <b>%2</b> of <b>%3</b>"
+#~ msgstr "<b>%1</b> - <b>%2</b> of <b>%3</b>"
+
+#~ msgid "All locations"
+#~ msgstr "Todas las localizaciones"
+
+#~ msgid "Did you mean?"
+#~ msgstr "Quisiste decir?"
+
+#~ msgid "Flats to buy"
+#~ msgstr "Pisos para comprar"
+
+#~ msgid "GPX"
+#~ msgstr "GPX"
+
+#~ msgid "Get new properties delivered by email"
+#~ msgstr "Recibe nuevas propiedades via email"
+
+#~ msgid "Get these results via email"
+#~ msgstr "Recibe estos resultados via email"
+
+#~ msgid "Go to Nestoria to see homes matching your search displayed on a map"
+#~ msgstr ""
+#~ "Vete a Nestoria para ver casas que coincidan con tu búsqueda en el mapa"
+
+#~ msgid ""
+#~ "Hello, this is the first time you (%1) receive %2 results from Nestoria."
+#~ msgstr ""
+#~ "Hola, esta es la primera vez que (%1) recibes %2 resultados de Nestoria."
+
+#~ msgid "Homes to buy"
+#~ msgstr "Casas para comprar"
+
+#~ msgid "Homes to rent"
+#~ msgstr "Casas para alquilar"
+
+#~ msgid "If it doesn't show up please check your spam folder."
+#~ msgstr ""
+#~ "Si no aparece en la bandeja de entrada, por favor mira en la bandeja de "
+#~ "spam."
+
+#~ msgid ""
+#~ "In your first alert we'll ask you to please confirm your email address by "
+#~ "clicking on a link."
+#~ msgstr ""
+#~ "En tu primera alerta te pediremos que confirmes tu dirección de email "
+#~ "haciendo click en un link."
+
+#~ msgid "Learn more about Nestoria alerts."
+#~ msgstr "Aprende más sobre las alertas de Nestoria."
+
+#~ msgid "Most popular areas to find"
+#~ msgstr "Las áreas más populares para encontrar."
+
+#~ msgid "Nestoria DropIn Map"
+#~ msgstr "Mapa DropIn de Nestoria"
+
+#~ msgid "Nestoria DropIn Map Tool"
+#~ msgstr "Herramienta mapa DropIn de Nestoria"
+
+#~ msgid "Nestoria Flat Search"
+#~ msgstr "Búsqueda de pisos de Nestoria"
+
+#~ msgid ""
+#~ "Nestoria Flat Search allows you to search flats and houses all across the "
+#~ "UK and share them with your friends inside Facebook."
+#~ msgstr ""
+#~ "La búsqueda de pisos de Nestoria te permite buscar pisos y casas en toda "
+#~ "España y compartirlos con tus amigos a través de Facebook."
+
+#~ msgid "Nestoria Map"
+#~ msgstr "Mapa de Nestoria"
+
+#~ msgid "Newest listings in"
+#~ msgstr "Anuncios nuevos"
+
+#~ msgid "Not interested in"
+#~ msgstr "No interesado en"
+
+#~ msgid "Not what you are looking for?  Search for another area:"
+#~ msgstr "¿No es lo qué estabas buscando? Busca en otra zona:"
+
+#~ msgid "OpenStreetMap"
+#~ msgstr "OpenStreetMap"
+
+#~ msgid "Please get in touch with us."
+#~ msgstr "Por favor ponte en contacto con nosotros"
+
+#~ msgid "Property Price Trends in"
+#~ msgstr "Tendencias de los Precios de Propiedades en"
+
+#~ msgid "Property to buy"
+#~ msgstr "Propiedades para comprar"
+
+#~ msgid ""
+#~ "Read our <a href=\"%1\" target=\"_blank\">email alerts help page</a> for "
+#~ "more information."
+#~ msgstr ""
+#~ "Lee nuestra <a href=\"%1\" target=\"_blanco\">página de ayuda sobre "
+#~ "alertas de email</a> para más información."
+
+#~ msgid "See ((more %1 listings and location information)) on Nestoria"
+#~ msgstr "Ver ((más propiedades de %1 e información local)) en Nestoria"
+
+#~ msgid "Sorry!  We were unable find any information for the location"
+#~ msgstr ""
+#~ "Perdon! Fuimos incapaces de encontrar información sobre la localización"
+
+#~ msgid "Switch to"
+#~ msgstr "Cambiar a"
+
+#~ msgid "Tell your friends you're house hunting:"
+#~ msgstr "Dile a tus amigos que estás buscando casa"
+
+#~ msgid "Top areas"
+#~ msgstr "Top areas"
+
+#~ msgid ""
+#~ "We help you keep an eye on the property market. To get the most from this "
+#~ "tool, sign in to Yahoo!"
+#~ msgstr ""
+#~ "Te ayudamos a que no pierdas de vista el mercado inmobiliario. Para "
+#~ "aprovechar al máximo esta herramienta, conectaté a Yahoo!"
+
+#~ msgid "You have succesfully unsubscribed."
+#~ msgstr "Su subscripción a sido cancelada exitosamente"
+
+#~ msgid "You need to click \"YES\" to receive further emails like this."
+#~ msgstr "Necesitas hacer click en \"SI\" para recibir mas emails como este."
+
+#~ msgid "Your first email alert should arrive in the next day!"
+#~ msgstr "Tu primera alerta de email debería llegar en un día!"
+
+#~ msgid "Your first email alert should arrive in the next day."
+#~ msgstr "Tu primera alerta de email debería llegar en un día."
+
+#~ msgid "Your first email alert should arrive tomorrow!"
+#~ msgstr "Tu primera alerta de email debería llegar mañana!"
+
+#~ msgid "continue to send me emails like this"
+#~ msgstr "Seguir enviándome emails como este"
+
+#~ msgid "create alert"
+#~ msgstr "crear alerta"
+
+#~ msgid "daily or weekly emails"
+#~ msgstr "emails diarios o semanales"
+
+#~ msgid "flat buy sitemap meta description"
+#~ msgstr "descripción del mapa del sitio de pisos para comprar"
+
+#~ msgid "flat buy streets sitemap meta description %1"
+#~ msgstr "descripción del mapa del sitio de pisos para comprar %1"
+
+#~ msgid "flat rent sitemap meta description"
+#~ msgstr "descripción del mapa del sitio de pisos para alquilar"
+
+#~ msgid "house buy sitemap meta description"
+#~ msgstr "descripción del mapa del sitio de casas para comprar"
+
+#~ msgid "house rent sitemap meta description"
+#~ msgstr "descripción del mapa del sitio de casas para alquilar"
+
+#~ msgid "map + sat"
+#~ msgstr "mapa + sat"
+
+#~ msgid "maximum one email per day"
+#~ msgstr "máximo un email al día"
+
+#~ msgid "maximum one email per day per location you are interested in"
+#~ msgstr "máximo un email al día por localización que te interesa"
+
+#~ msgid "next >>"
+#~ msgstr "siguiente >>"
+
+#~ msgid "sitemap streets h2 text"
+#~ msgstr "calles del mapa del sitio text h2"
+
+#~ msgid ""
+#~ "unsubscribe any time - just click on the link provided in every email"
+#~ msgstr ""
+#~ "Cancela tu subscripción en cualquier momento - haciendo click en el link "
+#~ "que encontrarás en cada email!"
+
+#~ msgid "we won't share your email address with anyone. Ever."
+#~ msgstr " compartiremos tu dirección de email con nadie. Nunca."
+
+#~ msgid "your first email will arrive tomorrow"
+#~ msgstr "recibirás tu primer email mañana"
+
+#~ msgid "$rh->{title} $transaction in"
+#~ msgstr "$rh->{title} $transaction en"
+
+#~ msgid "Flats to buy in streets of cities starting with letter %1"
+#~ msgstr ""
+#~ "Pisos para comprar en calles de ciudades que empiecen por la letra %1"
+
+#~ msgid "Properties to %1 by %2"
+#~ msgstr "Propiedades de %1 a%2"
+
+#~ msgid "Properties to %1:"
+#~ msgstr "Propiedades de %1"
+
+#~ msgid "properties to $listing_type"
+#~ msgstr "propiedades de $tipo de_anuncio"
+
+#~ msgid "properties to $other_listing_type"
+#~ msgstr "propiedades de $otro_tipo_de_anuncio"
+
+#~ msgid " for sale"
+#~ msgstr "a la venta"
+
+#~ msgid " to rent"
+#~ msgstr "en alquiler"
+
+#~ msgid " to share"
+#~ msgstr "para compartir"
+
+#~ msgid "$rh_data->{title} $transaction in"
+#~ msgstr "$rh_data->{title} $transaction en"
+
+#~ msgid "$rh_data->{title} %1 in %2"
+#~ msgstr "$rh_data->{título} %1 en %2"
+
+#~ msgid "$rh_data->{title} in %1"
+#~ msgstr "$rh_data->{título} en %1"
+
+#~ msgid "%1 on or near %2"
+#~ msgstr "%1 en o cerca %2"
+
+#~ msgid "Change Your Search"
+#~ msgstr "Cambia Tu Búsqueda"
+
+#~ msgid "Copyright &copy; 2007 Lokku Ltd."
+#~ msgstr "Copyright &copy; 2007 Lokku Ltd."
+
+#~ msgid "Copyright 2007, Nestoria"
+#~ msgstr "Copyright 2007, Nestoria"
+
+#~ msgid "Copyright 2009, Lokku Ltd."
+#~ msgstr "Copyright 2009, Lokku Ltd."
+
+#~ msgid "Copyright 2009, Nestoria"
+#~ msgstr "Copyright 2009, Nestoria"
+
+#~ msgid "FLATSHARE"
+#~ msgstr "COMPARTIR PISO"
+
+#~ msgid "Found %1 %2 - %3 sec."
+#~ msgstr "Encontrados %1 %2 - %3 sec."
+
+#~ msgid "Found %1 %2 in %3 secs."
+#~ msgstr "Encontrados %1 %2 en %3 sec."
+
+#~ msgid ""
+#~ "Hello, you signed up to receive %1 property results from <a target=\\"
+#~ "\"_blank\\\" href=\\\"%2\\\">Nestoria</a>."
+#~ msgstr ""
+#~ "Hola, te has registrado para recibir %1 resultados de propiedades de <a "
+#~ "target=\\\"_blank\\\" href=\\\"%2\\\">Nestoria</a>."
+
+#~ msgid "Hide property features"
+#~ msgstr "Esconder características de la propiedad"
+
+#~ msgid "Nestoria property search"
+#~ msgstr "Buscador de propiedades de Nestoria"
+
+#~ msgid "No way!"
+#~ msgstr "De ninguna manera!"
+
+#~ msgid "Or try zooming out and re-centering the map."
+#~ msgstr "O prueba a ampliar el mapa y centrarlo otra vez."
+
+#~ msgid "Pastable list"
+#~ msgstr "Lista que se puede pegar"
+
+#~ msgid "Pastable list of %1"
+#~ msgstr "Lista que se puede pegar %1"
+
+#~ msgid "Pastable list of %2 in %1"
+#~ msgstr "Lista que se puede pegar de %2 en %1"
+
+#~ msgid "Pastable map of %1"
+#~ msgstr "Mapa que se puede pegar %1"
+
+#~ msgid "Pastable map of %2 in %1"
+#~ msgstr "Mapa que se puede pegar de %2 en %1"
+
+#~ msgid "Refine Your Search"
+#~ msgstr "Redefine tu busqueda"
+
+#~ msgid "Review your search above or try searching:"
+#~ msgstr "Revisa tu búsqueda arriba o intenta buscando:"
+
+#~ msgid "SALE"
+#~ msgstr "COMPRAR"
+
+#~ msgid "SHARE"
+#~ msgstr "COMPARTIR"
+
+#~ msgid "Search only "
+#~ msgstr "Sólo búsqueda"
+
+#~ msgid "Select property features"
+#~ msgstr "Seleccionar características de la propiedad"
+
+#~ msgid "Show \\\"must haves\\\""
+#~ msgstr "Mostrar \\\"debe tener\\\""
+
+#~ msgid "Sorry, we found no %1 matching your query:"
+#~ msgstr "Perdon, no encontramos ningún %1 que encaje con tu búsqueda:"
+
+#~ msgid "Try searching:"
+#~ msgstr "Prueba a buscar:"
+
+#~ msgid "Webmasters - Add Nestoria to your site:"
+#~ msgstr "Webmasters - Añade Nestoria a tu página web"
+
+#~ msgid "Webmasters - Nestoria for your site:"
+#~ msgstr "Webmasters - Nestoria para tu página web"
+
+#~ msgid "You need to click \\\"YES\\\" to continue receiving this alert."
+#~ msgstr ""
+#~ "Necesitas hacer click en \\\"SI\"\\ para seguir recibiendo esta alerta."
+
+#~ msgid "You need to click \\\"YES\\\" to receive further emails like this."
+#~ msgstr ""
+#~ "Necesitas hacer click en \\\"SI\"\\ para recibir más emails como este."
+
+#~ msgid "co-branded property search"
+#~ msgstr "Búsqueda de propiedades de más de una marca"
+
+#~ msgid "look for %1 to buy"
+#~ msgstr "busca %1 para comprar"
+
+#~ msgid "look for %1 to rent"
+#~ msgstr "busca %1 para alquilar"
+
+#~ msgid "note: %1 markers accurate to 100m."
+#~ msgstr "nota: %1marcadores precisos en 100m."
+
+#~ msgid "property list"
+#~ msgstr "lista de propiedades"
+
+#~ msgid "casa for sale"
+#~ msgstr "casas en venta"
+
+#~ msgid "casa to rent"
+#~ msgstr "casas en alquiler"
+
+#~ msgid "new homes for sale"
+#~ msgstr "obra nueva en venta"
+
+#~ msgid "new homes to rent"
+#~ msgstr "obra nueva en alquiler"
+
+#~ msgid "new homess"
+#~ msgstr "obra nueva"
+
+#~ msgid " with around %1 bed"
+#~ msgstr "con alrededor de %1 dormitorio"
+
+#~ msgid " with around %1 beds"
+#~ msgstr "con alrededor de %1 dormitorios"
+
+#~ msgid "immobiliare for sale"
+#~ msgstr "inmobiliaria a la venta"
+
+#~ msgid ""
+#~ "Don't worry, we will NEVER give your info to anyone, especially not "
+#~ "estate agents."
+#~ msgstr ""
+#~ "No te preocupes, NUNCA daremos tu información a nadie, especialmente a "
+#~ "las inmobiliarias."
+
+#~ msgid "ld_test"
+#~ msgstr "ld_test_es"
+
+#~ msgid "Property type"
+#~ msgstr "Tipo de vivienda"
+
+#~ msgid "Property type adjectives"
+#~ msgstr "Estado"
+
+#~ msgid "Agents"
+#~ msgstr "Agentes"
+
+#~ msgid "Facilities"
+#~ msgstr "Características"
+
+#~ msgid "more/less"
+#~ msgstr "Más/Menos"

@@ -1,0 +1,1965 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: utf-8\n"
+
+msgid "geolocate me"
+msgstr ""
+"use current location"
+
+msgid "auth_failure"
+msgstr ""
+"Wrong email address or password"
+
+msgid "email_empty"
+msgstr ""
+"Email field is empty"
+
+msgid "password_empty"
+msgstr ""
+"Password file is empty"
+
+msgid "email_already_in_use"
+msgstr ""
+"Email address is already in use"
+
+msgid "not_an_email_address"
+msgstr ""
+"This does not look like an email address"
+
+msgid "email_too_long"
+msgstr ""
+"This does not look like an email address"
+
+msgid "other_error"
+msgstr ""
+"Error"
+
+msgid "unsave result"
+msgstr ""
+"remove"
+
+msgid "connection_error"
+msgstr ""
+"Connection error"
+
+msgid "Click <a id=\"a2bra\">here</a> to add Nestoria to your browser search engines"
+msgstr ""
+""
+
+msgid " %quant(%1,bathroom,bathrooms)"
+msgstr ""
+""
+
+msgid " bedroom"
+msgstr ""
+""
+
+msgid " bedrooms"
+msgstr ""
+""
+
+msgid " between %1 and %2"
+msgstr ""
+""
+
+msgid " centered around"
+msgstr ""
+" "
+
+msgid " centered around %1"
+msgstr ""
+""
+
+msgid " costing around %1"
+msgstr ""
+" "
+
+msgid " costing between %1 and %2"
+msgstr ""
+" "
+
+msgid " costing less than %1 "
+msgstr ""
+" "
+
+msgid " costing more than %1 "
+msgstr ""
+" "
+
+msgid " in "
+msgstr ""
+" in "
+
+msgid " more than %1"
+msgstr ""
+""
+
+msgid " or "
+msgstr ""
+" "
+
+msgid " per month"
+msgstr ""
+" "
+
+msgid " per week"
+msgstr ""
+" "
+
+msgid " studio apartment"
+msgstr ""
+""
+
+msgid " under %1"
+msgstr ""
+""
+
+msgid " with "
+msgstr ""
+" "
+
+msgid " with %1 or more beds"
+msgstr ""
+" "
+
+msgid " with around %1 bed$plural"
+msgstr ""
+" "
+
+msgid "$nicename:"
+msgstr ""
+""
+
+msgid "$title"
+msgstr ""
+""
+
+msgid "$title $transaction in"
+msgstr ""
+""
+
+msgid "%1 %2 - %3 sec."
+msgstr ""
+""
+
+msgid "%1 %2 in %3 secs."
+msgstr ""
+""
+
+msgid "%1 Information"
+msgstr ""
+""
+
+msgid "%1 markers accurate to 100m"
+msgstr ""
+""
+
+msgid "%1 near %2"
+msgstr ""
+""
+
+msgid "%1 or more baths"
+msgstr ""
+""
+
+msgid "%1 to buy in %2"
+msgstr ""
+""
+
+msgid "%1 to rent in %2"
+msgstr ""
+""
+
+msgid "%1 to share in %2"
+msgstr ""
+""
+
+msgid "%1, %2 (radius %3 miles, %4 km)"
+msgstr ""
+""
+
+msgid "%quant(%1,Bath,Baths)"
+msgstr ""
+""
+
+msgid "%quant(%1,Bed,Beds)"
+msgstr ""
+""
+
+msgid "%quant(%1,Room,Rooms)"
+msgstr ""
+""
+
+msgid "%quant(%1,more photo,more photos)"
+msgstr ""
+""
+
+msgid "%quant(%1,more,more)"
+msgstr ""
+""
+
+msgid "(fewer first)"
+msgstr ""
+""
+
+msgid "(high to low)"
+msgstr ""
+""
+
+msgid "(low to high)"
+msgstr ""
+""
+
+msgid "(more first)"
+msgstr ""
+""
+
+msgid "(newer first)"
+msgstr ""
+""
+
+msgid "(older first)"
+msgstr ""
+""
+
+msgid "(per month)"
+msgstr ""
+""
+
+msgid "-"
+msgstr ""
+""
+
+msgid "..."
+msgstr ""
+""
+
+msgid "... but please select one of the above %1 areas first."
+msgstr ""
+""
+
+msgid "... or ..."
+msgstr ""
+""
+
+msgid "1 bed"
+msgstr ""
+""
+
+msgid "1000+"
+msgstr ""
+""
+
+msgid "2 bed"
+msgstr ""
+""
+
+msgid "3 bed"
+msgstr ""
+""
+
+msgid "4 bed"
+msgstr ""
+""
+
+msgid "<strong>Wow, looks like we have found quite a few results for this location!</strong><br />Why not try to narrow down your search by using our<strong> Price</strong> and<strong> Room</strong> filters or specifying<strong> additional search</strong> options."
+msgstr ""
+""
+
+msgid "Add average house prices to your website or blog"
+msgstr ""
+""
+
+msgid "Add properties to your website"
+msgstr ""
+""
+
+msgid "All"
+msgstr ""
+""
+
+msgid "Auction"
+msgstr ""
+""
+
+msgid "Australia"
+msgstr ""
+""
+
+msgid "Average House Prices"
+msgstr ""
+""
+
+msgid "Average House Prices in %1"
+msgstr ""
+""
+
+msgid "Average Rental Prices"
+msgstr ""
+""
+
+msgid "Average Rental Prices in %1"
+msgstr ""
+""
+
+msgid "Average house prices on your page, blog or website."
+msgstr ""
+""
+
+msgid "Bathrooms"
+msgstr ""
+""
+
+msgid "Beds"
+msgstr ""
+""
+
+msgid "Brazil"
+msgstr ""
+""
+
+msgid "Broaden your search using the sliders above."
+msgstr ""
+""
+
+msgid "Buy prices in %1"
+msgstr ""
+"Property prices in %1"
+
+msgid "Change your property preferences"
+msgstr ""
+""
+
+msgid "Change your search"
+msgstr ""
+""
+
+msgid "Click [[here]] to add Nestoria to your browser search engines"
+msgstr ""
+""
+
+msgid "Copyright &copy; 2010 Lokku Ltd."
+msgstr ""
+""
+
+msgid "Copyright 2010, Lokku Ltd."
+msgstr ""
+""
+
+msgid "Data generously provided by:"
+msgstr ""
+""
+
+msgid "Date"
+msgstr ""
+""
+
+msgid "Did you mean"
+msgstr ""
+""
+
+msgid "Drag map to re-centre your search"
+msgstr ""
+""
+
+msgid "Drat! We can't find any %1"
+msgstr ""
+""
+
+msgid "Drat! We're unable to find %1 matching your query"
+msgstr ""
+""
+
+msgid "Dreadfully sorry, this is certainly embarrassing. <p/>I'm afraid we have to ask that you try again a bit later. In the meanwhile why not amuse yourself with <a href='http://www.youtube.com/browse?s=tr'>top rated videos from YouTube</a>."
+msgstr ""
+""
+
+msgid "Email alert sign-up failed."
+msgstr ""
+""
+
+msgid "Email this page to a friend"
+msgstr ""
+""
+
+msgid "Europe"
+msgstr ""
+""
+
+msgid "Facebook"
+msgstr ""
+""
+
+msgid "Find %1 in %2 like this:"
+msgstr ""
+""
+
+msgid "Find out how we ((calculate house prices))."
+msgstr ""
+""
+
+msgid "Find properties"
+msgstr ""
+""
+
+msgid "Find properties to"
+msgstr ""
+""
+
+msgid "Flat"
+msgstr ""
+""
+
+msgid "Flats"
+msgstr ""
+""
+
+msgid "Flats for:"
+msgstr ""
+""
+
+msgid "Floor space"
+msgstr ""
+""
+
+msgid "For further information see <a href=\"%1\" target=\"_blank\">our help page</a>."
+msgstr ""
+""
+
+msgid "Go to nestoria to see homes matching your search displayed on a map"
+msgstr ""
+"View all properties matching your search displayed on a map at Nestoria"
+
+msgid "Google Earth / KML"
+msgstr ""
+""
+
+msgid "Have new properties delivered by email"
+msgstr ""
+""
+
+msgid "Hello, this is the first %1 property alert from Nestoria for %2"
+msgstr ""
+""
+
+msgid "Hello, you signed up to receive %1 property results from <a target=\"_blank\" href=\"%2\">Nestoria</a>."
+msgstr ""
+""
+
+msgid "Help me find a new home"
+msgstr ""
+""
+
+msgid "Hide options"
+msgstr ""
+""
+
+msgid "Hmm, sorry, but we don't know where you mean. Maybe you misspelled the location?"
+msgstr ""
+""
+
+msgid "Hmm, sorry, there are lots of places with that name. Hard to know which one you mean."
+msgstr ""
+""
+
+msgid "Home"
+msgstr ""
+""
+
+msgid "Homes for sale in"
+msgstr ""
+""
+
+msgid "House"
+msgstr ""
+""
+
+msgid "House Prices Widget"
+msgstr ""
+""
+
+msgid "Houses"
+msgstr ""
+""
+
+msgid "Houses for:"
+msgstr ""
+""
+
+msgid "Houses or Flats"
+msgstr ""
+""
+
+msgid "How often?"
+msgstr ""
+""
+
+msgid "I thought you might be interested in this property"
+msgstr ""
+""
+
+msgid "I use Nestoria to find properties, you should too!"
+msgstr ""
+""
+
+msgid "If you no longer wish to receive these emails, please see instructions at the bottom of this email."
+msgstr ""
+""
+
+msgid "If you no longer wish to receive this %1 email, <a href=\"%2\">unsubscribe here</a>."
+msgstr ""
+""
+
+msgid "In your first alert we'll ask you to confirm by clicking on a link."
+msgstr ""
+""
+
+msgid "India"
+msgstr ""
+""
+
+msgid "Interesting property web site:"
+msgstr ""
+""
+
+msgid "Learn more about Nestoria alerts"
+msgstr ""
+""
+
+msgid "Learn more about this data"
+msgstr ""
+""
+
+msgid "Loading data ..."
+msgstr ""
+""
+
+msgid "Loading map of %1 ..."
+msgstr ""
+""
+
+msgid "Loading results, please wait..."
+msgstr ""
+""
+
+msgid "Loading..."
+msgstr ""
+""
+
+msgid "Location"
+msgstr ""
+""
+
+msgid "Login with Facebook"
+msgstr ""
+""
+
+msgid "Looking for"
+msgstr ""
+""
+
+msgid "Made possible via"
+msgstr ""
+""
+
+msgid "Maybe you  made a mistake in cutting and pasting the URL?"
+msgstr ""
+""
+
+msgid "Min. Baths"
+msgstr ""
+""
+
+msgid "Min. Bedrooms"
+msgstr ""
+""
+
+msgid "Min. Rooms"
+msgstr ""
+""
+
+msgid "More property search options..."
+msgstr ""
+""
+
+msgid "Most Popular Property Searches"
+msgstr ""
+""
+
+msgid "NO"
+msgstr ""
+""
+
+msgid "Nestoria"
+msgstr ""
+""
+
+msgid "Nestoria - Sitemap"
+msgstr ""
+""
+
+msgid "Nestoria - UK Property Search Engine"
+msgstr ""
+""
+
+msgid "Nestoria - UK property search engine"
+msgstr ""
+""
+
+msgid "Nestoria Property List Tool"
+msgstr ""
+""
+
+msgid "Nestoria Property Search"
+msgstr ""
+""
+
+msgid "Nestoria Rank"
+msgstr ""
+""
+
+msgid "Nestoria Search"
+msgstr ""
+""
+
+msgid "Nestoria Team"
+msgstr ""
+""
+
+msgid "Nestoria UK property search engine"
+msgstr ""
+""
+
+msgid "Nestoria homepage"
+msgstr ""
+""
+
+msgid "Nestoria is not liable for the accuracy and copyright of the information of third parties contained in this page."
+msgstr ""
+""
+
+msgid "New builds"
+msgstr ""
+""
+
+msgid "New homes"
+msgstr ""
+""
+
+msgid "New location:"
+msgstr ""
+""
+
+msgid "Newest listings in %1"
+msgstr ""
+""
+
+msgid "No properties at present"
+msgstr ""
+""
+
+msgid "No results were found - please search again"
+msgstr ""
+""
+
+msgid "No!"
+msgstr ""
+""
+
+msgid "Not interested in %1"
+msgstr ""
+""
+
+msgid "Not what you are looking for?  View a different location:"
+msgstr ""
+""
+
+msgid "Oh no! Something went wrong."
+msgstr ""
+""
+
+msgid "Oh no, it looks like we're having problems with our databases!!!"
+msgstr ""
+""
+
+msgid "Once you confirm we'll begin sending regularly."
+msgstr ""
+""
+
+msgid "Only new homes"
+msgstr ""
+""
+
+msgid "Or try our"
+msgstr ""
+""
+
+msgid "Paste this map on your website or blog"
+msgstr ""
+""
+
+msgid "Please click"
+msgstr ""
+""
+
+msgid "Please do not reply to this email."
+msgstr ""
+""
+
+msgid "Please enter a location. Use places or postcodes. Go crazy."
+msgstr ""
+""
+
+msgid "Please enter your friend's email address:"
+msgstr ""
+""
+
+msgid "Please get in touch with us"
+msgstr ""
+""
+
+msgid "Please let us know what you think"
+msgstr ""
+""
+
+msgid "Please note, it may unfortunately take up to 24 hours for the unsubscribe to take effect."
+msgstr ""
+""
+
+msgid "Please press Apple-D to add the bookmark."
+msgstr ""
+""
+
+msgid "Please press CTRL-D to add the bookmark."
+msgstr ""
+""
+
+msgid "Please search again"
+msgstr ""
+""
+
+msgid "Please sign in and set your location"
+msgstr ""
+""
+
+msgid "Please solve this puzzle"
+msgstr ""
+""
+
+msgid "Please try again!"
+msgstr ""
+""
+
+msgid "Please try again."
+msgstr ""
+""
+
+msgid "Please try changing your search options."
+msgstr ""
+""
+
+msgid "Popular property searches in"
+msgstr ""
+""
+
+msgid "Powered by %1"
+msgstr ""
+""
+
+msgid "Powered by:"
+msgstr ""
+""
+
+msgid "Price"
+msgstr ""
+""
+
+msgid "Price/m&sup2;"
+msgstr ""
+""
+
+msgid "Price:"
+msgstr ""
+""
+
+msgid "Prices"
+msgstr ""
+""
+
+msgid "Properties in locations in the UK from %1 to %2 sorted alphabetically"
+msgstr ""
+""
+
+msgid "Properties to %1"
+msgstr ""
+""
+
+msgid "Property"
+msgstr ""
+""
+
+msgid "Property List Tool"
+msgstr ""
+""
+
+msgid "Property Price Trends in <b>%1</b>"
+msgstr ""
+""
+
+msgid "Property Search"
+msgstr ""
+""
+
+msgid "Property and Homes Property Search by Nestoria"
+msgstr ""
+""
+
+msgid "Property features"
+msgstr ""
+""
+
+msgid "Property for:"
+msgstr ""
+""
+
+msgid "Property to buy in "
+msgstr ""
+" "
+
+msgid "Property to rent in "
+msgstr ""
+" "
+
+msgid "Real estate property search. Search over 400,000 flats and houses in the UK."
+msgstr ""
+""
+
+msgid "Redirecting..."
+msgstr ""
+""
+
+msgid "Rental prices in %1"
+msgstr ""
+""
+
+msgid "Return to your property search"
+msgstr ""
+""
+
+msgid "Rooms"
+msgstr ""
+""
+
+msgid "Search"
+msgstr ""
+""
+
+msgid "Search!"
+msgstr ""
+""
+
+msgid "Searching..."
+msgstr ""
+""
+
+msgid "See more <a href=\"%1\" rel=\"nofollow\">%2 listings and location information</a> on Nestoria"
+msgstr ""
+""
+
+msgid "See more info and property listings from this area"
+msgstr ""
+""
+
+msgid "See these "
+msgstr ""
+" "
+
+msgid "See these results on %1"
+msgstr ""
+""
+
+msgid "Select a %1 area:"
+msgstr ""
+""
+
+msgid "Select one of the %1 areas below to browse %2."
+msgstr ""
+""
+
+msgid "Select one of the %1 areas below to browse %2:"
+msgstr ""
+""
+
+msgid "Select one of the areas above to browse %1 by price, number of bedrooms, number of bathrooms, or type of property."
+msgstr ""
+""
+
+msgid "Show %1 on map."
+msgstr ""
+""
+
+msgid "Sign in and set your location"
+msgstr ""
+""
+
+msgid "Sign up for an email alert for this search."
+msgstr ""
+""
+
+msgid "Similarity"
+msgstr ""
+""
+
+msgid "Sitemap"
+msgstr ""
+""
+
+msgid "Sorry! We were unable to find any information for that location"
+msgstr ""
+""
+
+msgid "Sorry, currently Nestoria is only listing properties in London. "
+msgstr ""
+" "
+
+msgid "Sorry, the coordinates you specified are outside of the UK."
+msgstr ""
+""
+
+msgid "Sorry, the coordinates you specified seem to be invalid. Probably a typo. No reason for alarm though, just search again"
+msgstr ""
+""
+
+msgid "Sorry, there are several places in the UK called '%1'."
+msgstr ""
+""
+
+msgid "Sorry, there are several possible matches for '%1'."
+msgstr ""
+""
+
+msgid "Sorry, we are unable to validate your email address."
+msgstr ""
+""
+
+msgid "Sorry, we could not find any places by that name."
+msgstr ""
+""
+
+msgid "Sorry, we only offer our property search in the UK."
+msgstr ""
+""
+
+msgid "Sorry, you didn't solve the puzzle correctly."
+msgstr ""
+""
+
+msgid "Sort by"
+msgstr ""
+""
+
+msgid "Sort:"
+msgstr ""
+""
+
+msgid "Studio"
+msgstr ""
+""
+
+msgid "Suggestions:"
+msgstr ""
+""
+
+msgid "Tell us who you are"
+msgstr ""
+""
+
+msgid "Tell your friends about Nestoria"
+msgstr ""
+""
+
+msgid "Thanks for being a Nestoria beta tester!"
+msgstr ""
+""
+
+msgid "Thanks for using Nestoria and good luck in your house hunt."
+msgstr ""
+""
+
+msgid "The area you selected is quite large!"
+msgstr ""
+""
+
+msgid "The coordinates you specified are outside of the UK."
+msgstr ""
+""
+
+msgid "The email address you specified doesn't seem valid. Perhaps there is a typo?"
+msgstr ""
+""
+
+msgid "The email addresses you provided didn't match."
+msgstr ""
+""
+
+msgid "The home shown above is the most recently updated since your last email."
+msgstr ""
+""
+
+msgid "The homes shown above are the %1 most recently updated since your last email."
+msgstr ""
+""
+
+msgid "There is no local information available for this area."
+msgstr ""
+""
+
+msgid "This email is only available in HTML. We do not offer a text-only version."
+msgstr ""
+""
+
+msgid "This email was sent to <b>%1</b>."
+msgstr ""
+""
+
+msgid "This property is in the congestion charging zone"
+msgstr ""
+""
+
+msgid "To get the most from this app, please <a href='/v1/settings'>tell us what kind of property you want</a>."
+msgstr ""
+""
+
+msgid "Tools for webmasters"
+msgstr ""
+""
+
+msgid "Try the postcode or a nearby area por favor. Ta."
+msgstr ""
+""
+
+msgid "Try zooming out or re-centering the map."
+msgstr ""
+""
+
+msgid "Tube"
+msgstr ""
+""
+
+msgid "Type of property"
+msgstr ""
+""
+
+msgid "Type the two words you read in the top box into the bottom field"
+msgstr ""
+""
+
+msgid "Type the two words you see into the field below"
+msgstr ""
+""
+
+msgid "UK locations sorted alphabetically from %1 to %2"
+msgstr ""
+""
+
+msgid "Unfortunately we were unable to find any locations matching your query."
+msgstr ""
+""
+
+msgid "Unsubscribe failed"
+msgstr ""
+""
+
+msgid "Update Your Search"
+msgstr ""
+""
+
+msgid "View these properties on a map"
+msgstr ""
+""
+
+msgid "Viewing the newest property in"
+msgstr ""
+""
+
+msgid "Warning!"
+msgstr ""
+""
+
+msgid "We also offer Nestoria in other countries:"
+msgstr ""
+""
+
+msgid "We also offer property search in other countries"
+msgstr ""
+""
+
+msgid "We are Lokku Ltd."
+msgstr ""
+""
+
+msgid "We ask you this to make sure you're human."
+msgstr ""
+""
+
+msgid "We have many more %1"
+msgstr ""
+"We have more %1"
+
+msgid "We'll send you regular emails with new and updated properties"
+msgstr ""
+""
+
+msgid "We'll send you regular emails with new and updated properties (and only those!)."
+msgstr ""
+""
+
+msgid "What kind of property would you like to see?"
+msgstr ""
+""
+
+msgid "YES"
+msgstr ""
+""
+
+msgid "Yes!"
+msgstr ""
+""
+
+msgid "You are being redirected..."
+msgstr ""
+""
+
+msgid "You are here"
+msgstr ""
+""
+
+msgid "You are now subscribed!"
+msgstr ""
+""
+
+msgid "You are signing up for:"
+msgstr ""
+""
+
+msgid "You didn't specify a URL."
+msgstr ""
+""
+
+msgid "You forgot to fill in one of the required fields."
+msgstr ""
+""
+
+msgid "You have successfully unsubscribed."
+msgstr ""
+""
+
+msgid "You may need to zoom out to see all markers."
+msgstr ""
+""
+
+msgid "You need to click \"YES\" to continue receiving this alert."
+msgstr ""
+""
+
+msgid "Your email address"
+msgstr ""
+""
+
+msgid "Your email address has been confirmed."
+msgstr ""
+""
+
+msgid "Your first alert should arrive tomorrow!"
+msgstr ""
+""
+
+msgid "Your search seems to be for a location outside of greater London."
+msgstr ""
+""
+
+msgid "Zoom, move the map or change any of the options below to see new properties."
+msgstr ""
+""
+
+msgid "a month ago"
+msgstr ""
+""
+
+msgid "above"
+msgstr ""
+""
+
+msgid "add to your website or blog"
+msgstr ""
+""
+
+msgid "all"
+msgstr ""
+""
+
+msgid "all homes"
+msgstr ""
+""
+
+msgid "and"
+msgstr ""
+""
+
+msgid "any"
+msgstr ""
+""
+
+msgid "area list"
+msgstr ""
+""
+
+msgid "as a"
+msgstr ""
+""
+
+msgid "average asking prices from"
+msgstr ""
+""
+
+msgid "average house price trends"
+msgstr ""
+""
+
+msgid "average monthly asking prices"
+msgstr ""
+""
+
+msgid "back"
+msgstr ""
+""
+
+msgid "bath"
+msgstr ""
+""
+
+msgid "baths"
+msgstr ""
+""
+
+msgid "beds"
+msgstr ""
+""
+
+msgid "bookmark"
+msgstr ""
+""
+
+msgid "buy"
+msgstr ""
+""
+
+msgid "by"
+msgstr ""
+""
+
+msgid "by email"
+msgstr ""
+""
+
+msgid "cancel"
+msgstr ""
+""
+
+msgid "change"
+msgstr ""
+""
+
+msgid "continue to send me this alert"
+msgstr ""
+""
+
+msgid "current zoom level"
+msgstr ""
+""
+
+msgid "daily"
+msgstr ""
+""
+
+msgid "e.g. W6, Chelsea"
+msgstr ""
+""
+
+msgid "emails don't match"
+msgstr ""
+""
+
+msgid "export results"
+msgstr ""
+""
+
+msgid "feedback"
+msgstr ""
+""
+
+msgid "first seen"
+msgstr ""
+""
+
+msgid "flat"
+msgstr ""
+""
+
+msgid "flats"
+msgstr ""
+""
+
+msgid "flats for sale in"
+msgstr ""
+""
+
+msgid "flats to rent in"
+msgstr ""
+""
+
+msgid "follow nestoria on twitter"
+msgstr ""
+""
+
+msgid "for %1 to buy"
+msgstr ""
+""
+
+msgid "for %1 to rent"
+msgstr ""
+""
+
+msgid "for %1 to share"
+msgstr ""
+""
+
+msgid "for sale"
+msgstr ""
+""
+
+msgid "from"
+msgstr ""
+""
+
+msgid "geo fun"
+msgstr ""
+""
+
+msgid "go to agent"
+msgstr ""
+""
+
+msgid "hide options"
+msgstr ""
+""
+
+msgid "hide search options"
+msgstr ""
+""
+
+msgid "homes"
+msgstr ""
+""
+
+msgid "house"
+msgstr ""
+""
+
+msgid "houses"
+msgstr ""
+""
+
+msgid "houses for sale in"
+msgstr ""
+""
+
+msgid "houses to rent in"
+msgstr ""
+""
+
+msgid "in your browser"
+msgstr ""
+""
+
+msgid "in your news reader / RSS"
+msgstr ""
+""
+
+msgid "is searching for"
+msgstr ""
+""
+
+msgid "last week"
+msgstr ""
+""
+
+msgid "less than"
+msgstr ""
+""
+
+msgid "looks good"
+msgstr ""
+""
+
+msgid "mFind %1 in %2 like this:"
+msgstr ""
+""
+
+msgid "map"
+msgstr ""
+""
+
+msgid "more options.."
+msgstr ""
+""
+
+msgid "more search options"
+msgstr ""
+""
+
+msgid "near"
+msgstr ""
+""
+
+msgid "near LOCATION"
+msgstr ""
+""
+
+msgid "next"
+msgstr ""
+""
+
+msgid "no commision"
+msgstr ""
+""
+
+msgid "no maximum"
+msgstr ""
+""
+
+msgid "no results"
+msgstr ""
+""
+
+msgid "no thanks, take me back"
+msgstr ""
+""
+
+msgid "note - you may need to zoom out to see all locations."
+msgstr ""
+""
+
+msgid "of"
+msgstr ""
+""
+
+msgid "on delicious"
+msgstr ""
+""
+
+msgid "once more please"
+msgstr ""
+""
+
+msgid "or"
+msgstr ""
+""
+
+msgid "or <a href='%1'>return to the Nestoria homepage</a>"
+msgstr ""
+""
+
+msgid "or try searching for"
+msgstr ""
+""
+
+msgid "or try searching:"
+msgstr ""
+""
+
+msgid "other countries"
+msgstr ""
+""
+
+msgid "other property tools..."
+msgstr ""
+""
+
+msgid "over a month ago"
+msgstr ""
+""
+
+msgid "pastable list"
+msgstr ""
+""
+
+msgid "photo of property"
+msgstr ""
+""
+
+msgid "please check"
+msgstr ""
+""
+
+msgid "please stop"
+msgstr ""
+""
+
+msgid "please try some of our most popular London property searches:"
+msgstr ""
+""
+
+msgid "please try some of our most popular UK property searches:"
+msgstr ""
+""
+
+msgid "please try some of our most popular searches:"
+msgstr ""
+""
+
+msgid "previous"
+msgstr ""
+""
+
+msgid "prices down"
+msgstr ""
+""
+
+msgid "prices down in %1"
+msgstr ""
+""
+
+msgid "prices up"
+msgstr ""
+""
+
+msgid "prices up in %1"
+msgstr ""
+""
+
+msgid "properties"
+msgstr ""
+""
+
+msgid "properties on a map"
+msgstr ""
+""
+
+msgid "properties to %1"
+msgstr ""
+""
+
+msgid "property"
+msgstr ""
+""
+
+msgid "property result list"
+msgstr ""
+""
+
+msgid "recommend"
+msgstr ""
+""
+
+msgid "refresh results"
+msgstr ""
+""
+
+msgid "rent"
+msgstr ""
+""
+
+msgid "retry"
+msgstr ""
+""
+
+msgid "sat"
+msgstr ""
+""
+
+msgid "search"
+msgstr ""
+""
+
+msgid "set bookmark"
+msgstr ""
+""
+
+msgid "share"
+msgstr ""
+""
+
+msgid "share on Facebook"
+msgstr ""
+""
+
+msgid "share/email/subscribe"
+msgstr ""
+""
+
+msgid "sign me up"
+msgstr ""
+""
+
+msgid "slider"
+msgstr ""
+""
+
+msgid "stay informed"
+msgstr ""
+""
+
+msgid "studio"
+msgstr ""
+""
+
+msgid "subscribe to RSS feed"
+msgstr ""
+""
+
+msgid "this area"
+msgstr ""
+""
+
+msgid "this week"
+msgstr ""
+""
+
+msgid "three weeks ago"
+msgstr ""
+""
+
+msgid "to"
+msgstr ""
+""
+
+msgid "to buy"
+msgstr ""
+""
+
+msgid "to buy on homepage"
+msgstr ""
+"for sale"
+
+msgid "to let"
+msgstr ""
+""
+
+msgid "to rent"
+msgstr ""
+""
+
+msgid "turn on map search"
+msgstr ""
+""
+
+msgid "two weeks ago"
+msgstr ""
+""
+
+msgid "update your settings"
+msgstr ""
+""
+
+msgid "updating results..."
+msgstr ""
+""
+
+msgid "used"
+msgstr ""
+""
+
+msgid "view as KML"
+msgstr ""
+""
+
+msgid "weekly"
+msgstr ""
+""
+
+msgid "yesterday"
+msgstr ""
+""
+
+msgid "your first alert will arrive tomorrow"
+msgstr ""
+""
+
+msgid "zoom in"
+msgstr ""
+""
+
+msgid "zoom out"
+msgstr ""
+""
+
+msgid "<< back"
+msgstr ""
+""
+
+msgid "<b>%1</b> - <b>%2</b> of <b>%3</b>"
+msgstr ""
+""
+
+msgid "All locations"
+msgstr ""
+""
+
+msgid "Did you mean?"
+msgstr ""
+""
+
+msgid "Flats to buy"
+msgstr ""
+""
+
+msgid "Flats to rent"
+msgstr ""
+""
+
+msgid "GPX"
+msgstr ""
+""
+
+msgid "Get new properties delivered by email"
+msgstr ""
+""
+
+msgid "Get these results via email"
+msgstr ""
+""
+
+msgid "Hello, this is the first time you (%1) receive %2 results from Nestoria."
+msgstr ""
+""
+
+msgid "Homes to buy"
+msgstr ""
+""
+
+msgid "Homes to rent"
+msgstr ""
+""
+
+msgid "If it doesn't show up please check your spam folder."
+msgstr ""
+""
+
+msgid "In your first alert we'll ask you to please confirm your email address by clicking on a link."
+msgstr ""
+""
+
+msgid "Learn more about Nestoria alerts."
+msgstr ""
+""
+
+msgid "Most popular areas to find"
+msgstr ""
+""
+
+msgid "Nestoria DropIn Map"
+msgstr ""
+""
+
+msgid "Nestoria DropIn Map Tool"
+msgstr ""
+""
+
+msgid "Nestoria Flat Search"
+msgstr ""
+""
+
+msgid "Nestoria Flat Search allows you to search flats and houses all across the UK and share them with your friends inside Facebook."
+msgstr ""
+""
+
+msgid "Nestoria Map"
+msgstr ""
+""
+
+msgid "Newest listings in"
+msgstr ""
+""
+
+msgid "Not interested in"
+msgstr ""
+""
+
+msgid "Not what you are looking for?  Search for another area:"
+msgstr ""
+""
+
+msgid "OpenStreetMap"
+msgstr ""
+""
+
+msgid "Other areas"
+msgstr ""
+""
+
+msgid "Please get in touch with us."
+msgstr ""
+""
+
+msgid "Property Price Trends in"
+msgstr ""
+""
+
+msgid "Property to buy"
+msgstr ""
+""
+
+msgid "Property to rent"
+msgstr ""
+""
+
+msgid "Read our <a href=\"%1\" target=\"_blank\">email alerts help page</a> for more information."
+msgstr ""
+""
+
+msgid "See ((more %1 listings and location information)) on Nestoria"
+msgstr ""
+""
+
+msgid "Sorry!  We were unable find any information for the location"
+msgstr ""
+""
+
+msgid "Switch to"
+msgstr ""
+""
+
+msgid "Tell your friends you're house hunting:"
+msgstr ""
+""
+
+msgid "Top areas"
+msgstr ""
+""
+
+msgid "We help you keep an eye on the property market. To get the most from this tool, sign in to Yahoo!"
+msgstr ""
+""
+
+msgid "You have succesfully unsubscribed."
+msgstr ""
+""
+
+msgid "You need to click \"YES\" to receive further emails like this."
+msgstr ""
+""
+
+msgid "Your first email alert should arrive in the next day!"
+msgstr ""
+""
+
+msgid "Your first email alert should arrive in the next day."
+msgstr ""
+""
+
+msgid "Your first email alert should arrive tomorrow!"
+msgstr ""
+""
+
+msgid "continue to send me emails like this"
+msgstr ""
+""
+
+msgid "create alert"
+msgstr ""
+""
+
+msgid "daily or weekly emails"
+msgstr ""
+""
+
+msgid "flat buy sitemap meta description"
+msgstr ""
+"Flats and Appartments to Buy by location in the UK, including new builds, with thousands of listed flats for sale"
+
+msgid "flat buy streets sitemap meta description %1"
+msgstr ""
+""
+
+msgid "flat rent sitemap meta description"
+msgstr ""
+"Sitemap of Flats for Rent and to let by location and region in the UK, including London and the South East lettings"
+
+msgid "house buy sitemap meta description"
+msgstr ""
+"Buy a House in the UK by location. Nestoria's sitemap with more than 30,000 locations sorted alphabetically"
+
+msgid "house rent sitemap meta description"
+msgstr ""
+"Database of locations to find Houses to Rent in the UK, including lettings in London and Home counties by hundreds of estate agents"
+
+msgid "map + sat"
+msgstr ""
+""
+
+msgid "maximum one email per day"
+msgstr ""
+""
+
+msgid "maximum one email per day per location you are interested in"
+msgstr ""
+""
+
+msgid "next >>"
+msgstr ""
+""
+
+msgid "sitemap streets h2 text"
+msgstr ""
+""
+
+msgid "unsubscribe any time - just click on the link provided in every email"
+msgstr ""
+""
+
+msgid "we won't share your email address with anyone. Ever."
+msgstr ""
+""
+
+msgid "your first email will arrive tomorrow"
+msgstr ""
+""
+
+msgid "$rh->{title} $transaction in"
+msgstr ""
+""
+
+msgid "Flats to buy in streets of cities starting with letter %1"
+msgstr ""
+""
+
+msgid "Properties to %1 by %2"
+msgstr ""
+""
+
+msgid "Properties to %1:"
+msgstr ""
+""
+
+msgid "properties to $listing_type"
+msgstr ""
+""
+
+msgid "properties to $other_listing_type"
+msgstr ""
+""
+
+msgid "Property type adjectives"
+msgstr ""
+"Property sub-type"
+
+msgid "Facilities"
+msgstr ""
+"Features"
+
+msgid "Financing"
+msgstr ""
+"Tenure & Financing"

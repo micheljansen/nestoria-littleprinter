@@ -1,0 +1,25 @@
+Installation
+============
+
+To get this prototype running on your local machine...
+
+1. Install Middleman Gem
+
+	gem install middleman
+
+2. Clone this git repo somewhere local
+
+	git clone ....
+
+3. Cd into the directory you just created
+
+4. Start Middleman sever
+	
+	middleman server
+
+5. Visit `http://localhost:4567` to see the prototype running locally
+
+Building into HTML
+==================
+
+Simply `middleman build`. All assets will be compiled into the build folder.

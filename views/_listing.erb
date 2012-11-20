@@ -1,0 +1,30 @@
+<div id="listing_<%=h listing["guid"] %>" class="result">
+  <div class="marker has_marker">
+    <%=h locals[:letter] %>
+  </div>
+  <div class="pic">
+    <a target="_blank" href="<%= listing["lister_url"] %>">
+      <%= image_tag listing["img_url"] %>
+    </a>
+  </div>
+  <div class="info">
+    <h3><a target="_blank" href="<%= listing["lister_url"] %>"><%=h listing["title"] %></a></h3>
+
+    <% if listing["beds_string"] != "" %>
+      <span class="tag"><%=h listing["beds_string"] %></span>
+    <% end %>
+
+    <% if listing["baths_string"] != "" %>
+      <span class="tag"><%=h listing["baths_string"] %></span>
+    <% end %>
+
+    <% listing["keywords_a"].each do |keyword| %>
+      <span class="tag"><%=h keyword %></span>
+    <% end %>
+
+    <p><%=h listing["summary"] %></p>
+
+    <p class="agent"> <%=h listing["datasource_name"]%> &mdash; <%=h listing["lister_name"] %></p>
+  </div>
+  <div class="price"><%=h listing["nice_price"]%></div>
+</div>
