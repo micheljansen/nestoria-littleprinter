@@ -4,6 +4,7 @@
 var $j = jQuery;
 
 // set up History.js
+/*
 (function(window,undefined){
     var History = window.History;
     if ( !History.enabled ) {
@@ -13,6 +14,7 @@ var $j = jQuery;
     // Bind to StateChange Event
     History.Adapter.bind(window,'statechange',on_state_change);
 })(window);
+*/
 
 
 jQuery(document).ready(function($) {
@@ -27,6 +29,7 @@ jQuery(document).ready(function($) {
 
 // inits static parts of serp
 function init_serp() {
+  return;
   function replace_selects_with_slider($min_select, $max_select, $slider, $label, id) {
     var $min_options = $min_select.find("option");
     var $max_options = $max_select.find("option");
