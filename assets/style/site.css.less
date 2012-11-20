@@ -64,9 +64,21 @@ html,body{
 
 body {
   font-family: @font-family;
-  color: @font-color; 
-  font-size: 13px;
+  color: @font-color;
+  font-size: 20px;
   overflow-x: hidden;
+}
+
+body.debug {
+  zoom: 0.6;
+  background: #ddd;
+  padding: 20px;
+
+  #paper {
+    background: white;
+    padding: 20px;
+    width: 384px + 40px;
+  }
 }
 
 a{
@@ -80,7 +92,11 @@ em{
 
 .container {
   .clearfix();
+
+  width: 384px;
+  overflow-x: hidden;
 }
+
 #debug_info {
   clear:both;
   display:none;
