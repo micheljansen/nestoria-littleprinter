@@ -1,6 +1,5 @@
 //= require listing_collection.js
 //= require serp_map_view.js
-//= require lib/jquery.history.js
 
 var $j = jQuery;
 
