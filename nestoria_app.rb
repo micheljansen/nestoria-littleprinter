@@ -201,8 +201,7 @@ class Nestoria::App < Sinatra::Base
 
     ###################
 
-    page_classes = "serp"
-    page_classes += " first-page" if page_no == 1
+    page_classes = "debug" if params[:debug]
 
 
     vars =  {
