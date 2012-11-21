@@ -5,19 +5,23 @@
   <div class="info">
     <h3><%=h listing["title"] %></h3>
 
-    <% if listing["beds_string"] != "" %>
-      <span class="tag"><%=h listing["beds_string"] %></span>
-    <% end %>
+    <div class="keywords">
+      <% if listing["beds_string"] != "" %>
+        <span class="tag"><%=h listing["beds_string"] %></span>
+      <% end %>
 
-    <% if listing["baths_string"] != "" %>
-      <span class="tag"><%=h listing["baths_string"] %></span>
-    <% end %>
+      <% if listing["baths_string"] != "" %>
+        <span class="tag"><%=h listing["baths_string"] %></span>
+      <% end %>
 
-    <% listing["keywords_a"].each do |keyword| %>
-      <span class="tag"><%=h keyword %></span>
-    <% end %>
+      <% listing["keywords_a"].each do |keyword| %>
+        <span class="tag"><%=h keyword %></span>
+      <% end %>
+    </div>
 
-    <p><%=h listing["summary"] %></p>
+    <div class="summary">
+      <p><%=h listing["summary"] %></p>
+    </div>
 
   </div>
   <div class="price"><%=h listing["nice_price"]%></div>
