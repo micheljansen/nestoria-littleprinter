@@ -128,7 +128,8 @@ class Nestoria::App < Sinatra::Base
       bedroom_min: min_beds,
       bedroom_max: max_beds,
       price_min: min_price,
-      price_max: max_price
+      price_max: max_price,
+      number_of_results: 5
     })
 
     if(backend_response["response"]["locations"] &&
