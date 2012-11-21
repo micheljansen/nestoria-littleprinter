@@ -220,7 +220,7 @@ class Nestoria::App < Sinatra::Base
               :total_pages => backend_response["response"]["total_pages"].to_i,
               :next_page_url => current_url.next_page.to_s,
               :previous_page_url => current_url.previous_page.to_s,
-              :request => backend_response["request"],
+              :backend_request => backend_response["request"],
               :response => backend_response["response"],
               :response_code => backend_response["response"]["application_response_code"],
               :filters => settings.filter_settings,
