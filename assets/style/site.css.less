@@ -122,11 +122,6 @@ em{
     left: 0;
   }
 
-  .price {
-    float: right;
-    height: 3em;
-  }
-
   h3 {
     font-weight: bold;
     white-space: nowrap;
@@ -143,13 +138,26 @@ em{
     max-height: 1em;
     overflow: hidden;
   }
+
   .summary {
-    max-height: 1em;
+    max-height: 2em;
     overflow: hidden;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-break: hyphenate;
+    word-break: break-word;
+  }
+
+  .price {
+    position: absolute;
+    right: 0;
+    margin-top: -1em;
+    background: white;
+    padding-left: 1em;
+    font-weight: bold;
   }
 
   .info {
     margin-left: @marker-height + 10px;
-    margin-right: 10px;
   }
 }
