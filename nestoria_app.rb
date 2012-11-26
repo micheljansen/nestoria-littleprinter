@@ -6,8 +6,6 @@ require 'net/http'
 require 'sinatra/config_file'
 require "sinatra/reloader" if development?
 
-require 'action_view/helpers/number_helper'
-
 require './config/filters.rb'
 
 require './models/listing'
@@ -25,7 +23,6 @@ class Nestoria::App < Sinatra::Base
 
   helpers do
     include Rack::Utils
-    include Linguistics::EN
     include ActionView::Helpers::NumberHelper
     include FastGettext::Translation
 
