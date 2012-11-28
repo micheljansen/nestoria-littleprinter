@@ -79,6 +79,45 @@ class Nestoria::App < Sinatra::Base
   end
 
 
+  # do this dynamically so we generate it when fields change
+  get '/meta.json' do
+    content_type :json
+    return {
+      publication_api_version: '1.0',
+      name: "Nestoria",
+      description: "New houses, flats etc. to rent or buy",
+      delivered_on: "every day",
+      external_configuration: false,
+      send_timezone_info: true,
+      send_delivery_count: false,
+      config: {
+        fields: [{
+          type: "radio",
+          name: "property_type",
+          label: "Property Type",
+          options: [
+              ["Any","property"],
+              ["Flat","flat"],
+              ["House","house"]
+            ]
+        }, {
+          type: "radio",
+          name: "listing_type",
+          label: "To",
+          options: [
+              ["Buy","buy"],
+              ["Rent","rent"]
+            ]
+        }, {
+          type: "text",
+          name: "location",
+          label: 'Location (e.g. "London", "Soho" or "W1")'
+        }
+      ]}
+    }.to_json
+  end
+
+
   get '/edition' do
     results = serp_request(params, Nestoria::URL.new(params))
     p results
