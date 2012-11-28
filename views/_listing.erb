@@ -14,6 +14,7 @@
         <span class="tag"><%=h listing["baths_string"] %></span>
       <% end %>
 
+      <div class="price"><%=h listing["nice_price"]%></div>
       <% listing["keywords_a"].each do |keyword| %>
         <span class="tag"><%=h keyword %></span>
       <% end %>
@@ -22,6 +23,5 @@
     <div class="summary">
       <p><%=h listing["summary"] %></p>
     </div>
-    <div class="price"><%=h listing["nice_price"]%></div>
   </div>
 </div>
