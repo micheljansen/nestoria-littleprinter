@@ -126,6 +126,12 @@ class Nestoria::App < Sinatra::Base
 
 
   get '/edition' do
+    # MD5 Hash today's date with two configuration options passed in from BERG Cloud
+    etag Digest::MD5.hexdigest(Time.now.utc.strftime('%l%p, %d %b %Y %Z'))
+    # validations
+    if(!params[:location] or !params[:property_type] or !params[:listing_type])
+      return ""
+    end
     results = serp_request(params, Nestoria::URL.new(params))
     p results
     erb :serp, {locals: results}
