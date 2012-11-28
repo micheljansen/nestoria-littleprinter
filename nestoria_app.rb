@@ -131,7 +131,7 @@ class Nestoria::App < Sinatra::Base
   end
 
 
-  get '/edition' do
+  get '/edition/' do
     # MD5 Hash today's date with two configuration options passed in from BERG Cloud
     etag Digest::MD5.hexdigest(Time.now.utc.strftime('%l%p, %d %b %Y %Z'))
     # validations
