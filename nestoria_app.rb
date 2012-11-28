@@ -118,6 +118,9 @@ class Nestoria::App < Sinatra::Base
       }
     end
 
+    #TODO use time zone to determine what's new
+    new_cutoff = (Time.now - 1.day).to_i
+
     loc = coord_location.nil? ? location : coord_location
     backend_response = Nestoria::API.get_listings(loc, property_type, listing_type, {
       page: page_no,
@@ -126,6 +129,7 @@ class Nestoria::App < Sinatra::Base
       bedroom_max: max_beds,
       price_min: min_price,
       price_max: max_price,
+      updated_min: new_cutoff,
       number_of_results: 5
     })
 
