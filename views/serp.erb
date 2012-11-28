@@ -4,6 +4,14 @@
       <h1><%= formatted_number(locals[:num_results]) %> <%=h locals[:verbose_title]%></h1>
     </div>
 
+    <div id="map" style="width: 100%; height: 300px"></div>
+    <script>
+      var map = L.map('map').setView([<%= locals[:center][:lat] %>, <%= locals[:center][:long] %>], 15);
+      L.tileLayer('http://b.tile.stamen.com/toner/{z}/{x}/{y}.png', {}).addTo(map);
+      //L.marker([51.5, -0.09]).addTo(map)
+      //.bindPopup('A pretty CSS3 popup. <br> Easily customizable.').openPopup();
+    </script>
+
     <div id="listings">
     <%
       i = 0
@@ -17,4 +25,9 @@
     <% end end%>
     </div> <!-- #listings -->
   </div> <!-- #results -->
+
+  <script>
+    // test
+    locals = <%= JSON.pretty_generate(locals); %>
+  </script>
 </div>

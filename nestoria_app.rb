@@ -133,7 +133,7 @@ class Nestoria::App < Sinatra::Base
 
   get '/edition/' do
     # MD5 Hash today's date with two configuration options passed in from BERG Cloud
-    etag Digest::MD5.hexdigest(Time.now.utc.strftime('%l%p, %d %b %Y %Z'))
+    etag Digest::MD5.hexdigest(Time.now.utc.strftime('%l%p, %d %b %Y %Z')) unless params[:debug]
     # validations
     if(!params[:location] or !params[:property_type] or !params[:listing_type])
       return ""
@@ -196,6 +196,7 @@ class Nestoria::App < Sinatra::Base
       l = backend_response["response"]["locations"][0]
       location = l["place_name"]
       location_nicename = l["long_title"]
+      center = {lat: l["center_lat"], long: l["center_long"]}
     else
       #this is actually really bad, and we don't know what to do yet
       STDERR.puts backend_response
@@ -295,6 +296,7 @@ class Nestoria::App < Sinatra::Base
                   house: current_url.with(property_type: "house"),
                   flat: current_url.with(property_type: "flat")
               },
+              :center => center,
               :sort => sort
     }
 
