@@ -84,6 +84,7 @@ class Nestoria::App < Sinatra::Base
     content_type :json
     return {
       publication_api_version: '1.0',
+      owner_email: "michel@lokku.com",
       name: "Nestoria",
       description: "New houses, flats etc. to rent or buy",
       delivered_on: "every day",
