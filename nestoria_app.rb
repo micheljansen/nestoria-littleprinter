@@ -118,7 +118,7 @@ class Nestoria::App < Sinatra::Base
     }.to_json
   end
 
-  get '/sample' do
+  get '/sample/' do
     params = {location: "london", property_type: "property", listing_type: "rent"}
     results = serp_request(params, Nestoria::URL.new(params))
     erb :serp, {locals: results}
