@@ -125,6 +125,12 @@ class Nestoria::App < Sinatra::Base
   end
 
 
+  post '/validate_config/' do
+    content_type :json
+    {valid: true}.to_json
+  end
+
+
   get '/edition' do
     # MD5 Hash today's date with two configuration options passed in from BERG Cloud
     etag Digest::MD5.hexdigest(Time.now.utc.strftime('%l%p, %d %b %Y %Z'))
