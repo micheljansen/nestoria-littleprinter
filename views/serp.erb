@@ -21,6 +21,7 @@
   </div> <!-- #results -->
 
   <script>
+    try {
     // test
     locals = <%= JSON.pretty_generate(locals) %>
 
@@ -41,7 +42,7 @@
     }
 
     var marker_img = new L.Icon({
-      iconUrl: '/images/marker-black.svg',
+      iconUrl: '<%= "#{request.scheme}://#{request.host_with_port}/images/marker-black.svg" %>',
       iconSize: [48,48],
     });
 
@@ -67,5 +68,7 @@
       }
       ).addTo(map);
     });
+    } catch(e) {
+    document.write(e) }
   </script>
 </div>
