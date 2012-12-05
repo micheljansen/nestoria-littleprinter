@@ -130,6 +130,8 @@ class Nestoria::App < Sinatra::Base
 
 
   post '/validate_config/' do
+    puts "validate_config"
+    p params
     content_type :json
     {valid: true}.to_json
   end
