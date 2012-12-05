@@ -10,6 +10,7 @@
       L.tileLayer('http://b.tile.stamen.com/toner/{z}/{x}/{y}.png', {}).addTo(map);
       //L.marker([51.5, -0.09]).addTo(map)
       //.bindPopup('A pretty CSS3 popup. <br> Easily customizable.').openPopup();
+
     </script>
 
     <div id="listings">
@@ -28,6 +29,13 @@
 
   <script>
     // test
-    locals = <%= JSON.pretty_generate(locals); %>
+    locals = <%= JSON.pretty_generate(locals) %>
+
+    listings = <%= locals[:listings].to_json %>
+
+
+    $(listings).each(function(i, l) {
+      console.log(l);
+    });
   </script>
 </div>
