@@ -25,12 +25,12 @@
     locals = <%= JSON.pretty_generate(locals) %>
 
     listings = <%= locals[:listings].to_json %>
+    center = new L.LatLng(<%=locals[:center][:lat]%>, <%=locals[:center][:long]%>);
 
     showing_map = true;
 
 
     var listings_on_map = _(listings).filter(function(e) {
-      console.log(e.location_accuracy);
       return parseFloat(e.location_accuracy) >= 7;
     });
 
@@ -45,13 +45,18 @@
       iconSize: [48,48],
     });
 
-    var map = L.map('map').setView([<%= locals[:center][:lat] %>, <%= locals[:center][:long] %>], 15);
+
+    var latLngs = _(listings_on_map).reduce(function(list, e) {
+      list.push(new L.LatLng(e.latitude, e.longitude));
+      return list;
+    }, [center]);
+
+    var bounds = new L.LatLngBounds(latLngs);
+    var map = L.map('map').fitBounds(bounds.pad(0.1));
+
     L.tileLayer('http://b.tile.stamen.com/toner/{z}/{x}/{y}.png', {}).addTo(map);
     //L.marker([51.5, -0.09]).addTo(map)
     //.bindPopup('A pretty CSS3 popup. <br> Easily customizable.').openPopup();
-
-
-    console.log(marker_img);
 
     $(listings_on_map).each(function(i, l) {
       console.log(l);
