@@ -17,3 +17,7 @@ end
 map '/' do
   run Nestoria::App
 end
+
+#show logs in heroku
+$stdout.sync = true
+
