@@ -181,7 +181,7 @@ class Nestoria::App < Sinatra::Base
     end
 
     #TODO use time zone to determine what's new
-    new_cutoff = (Time.now - 1.day).to_i
+    new_cutoff = (Time.now - 2.day).to_i
 
     loc = coord_location.nil? ? location : coord_location
     backend_response = Nestoria::API.get_listings(loc, property_type, listing_type, {

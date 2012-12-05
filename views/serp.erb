@@ -5,13 +5,6 @@
     </div>
 
     <div id="map" style="width: 100%; height: 300px"></div>
-    <script>
-      var map = L.map('map').setView([<%= locals[:center][:lat] %>, <%= locals[:center][:long] %>], 15);
-      L.tileLayer('http://b.tile.stamen.com/toner/{z}/{x}/{y}.png', {}).addTo(map);
-      //L.marker([51.5, -0.09]).addTo(map)
-      //.bindPopup('A pretty CSS3 popup. <br> Easily customizable.').openPopup();
-
-    </script>
 
     <div id="listings">
     <%
@@ -32,14 +25,35 @@
     locals = <%= JSON.pretty_generate(locals) %>
 
     listings = <%= locals[:listings].to_json %>
+
+    showing_map = true;
+
+
+    var listings_on_map = _(listings).filter(function(e) {
+      console.log(e.location_accuracy);
+      return parseFloat(e.location_accuracy) >= 7;
+    });
+
+    showing_map = listings_on_map.length > 0;
+
+    if(!showing_map) {
+      $("#map").hide();
+    }
+
     var marker_img = new L.Icon({
-      iconUrl: '/images/marker.svg',
+      iconUrl: '/images/marker-black.svg',
       iconSize: [48,48],
     });
 
+    var map = L.map('map').setView([<%= locals[:center][:lat] %>, <%= locals[:center][:long] %>], 15);
+    L.tileLayer('http://b.tile.stamen.com/toner/{z}/{x}/{y}.png', {}).addTo(map);
+    //L.marker([51.5, -0.09]).addTo(map)
+    //.bindPopup('A pretty CSS3 popup. <br> Easily customizable.').openPopup();
+
+
     console.log(marker_img);
 
-    $(listings).each(function(i, l) {
+    $(listings_on_map).each(function(i, l) {
       console.log(l);
 
       L.marker([parseFloat(l.latitude), parseFloat(l.longitude)],
