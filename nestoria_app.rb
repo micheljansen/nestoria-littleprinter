@@ -130,10 +130,30 @@ class Nestoria::App < Sinatra::Base
 
 
   post '/validate_config/' do
+    content_type :json
+
     puts "validate_config"
     p params
-    content_type :json
-    {valid: true}.to_json
+    errors = []
+
+    if !params["listing_type"]
+      errors << "Please specify whether you are looking for properties to buy or rent"
+    end
+
+    if !params["location"]
+      errors << "Please enter a location where you want us to search"
+    end
+
+
+    if errors.empty?
+      return {valid: true}.to_json
+    else
+      return {
+        valid: false,
+        errors: errors
+      }.to_json
+    end
+
   end
 
 
