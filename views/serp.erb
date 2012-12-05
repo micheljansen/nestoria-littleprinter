@@ -32,10 +32,21 @@
     locals = <%= JSON.pretty_generate(locals) %>
 
     listings = <%= locals[:listings].to_json %>
+    var marker_img = new L.Icon({
+      iconUrl: '/images/marker.svg',
+      iconSize: [48,48],
+    });
 
+    console.log(marker_img);
 
     $(listings).each(function(i, l) {
       console.log(l);
+
+      L.marker([parseFloat(l.latitude), parseFloat(l.longitude)],
+      {
+        icon: marker_img
+      }
+      ).addTo(map);
     });
   </script>
 </div>
