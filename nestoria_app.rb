@@ -133,14 +133,16 @@ class Nestoria::App < Sinatra::Base
     content_type :json
 
     puts "validate_config"
-    p params
     errors = []
 
-    if !params["listing_type"]
+    config = JSON.parse(params["config"])
+    p config
+
+    if !config["listing_type"]
       errors << "Please specify whether you are looking for properties to buy or rent"
     end
 
-    if !params["location"]
+    if !config["location"]
       errors << "Please enter a location where you want us to search"
     end
 
